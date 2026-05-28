@@ -1,0 +1,7 @@
+.env
+node_modules/
+.playwright-mcp/
+*.png
+*.zip
+install_gh.py
+gh_auth.py
