@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ARTICLE_TITLE}}",
+  "description": "{{ARTICLE_DESCRIPTION}}",
+  "url": "{{ARTICLE_URL}}",
+  "datePublished": "{{PUBLICATION_DATE}}",
+  "dateModified": "{{MODIFICATION_DATE}}",
+  "author": {
+    "@type": "Person",
+    "name": "{{AUTHOR_NAME}}",
+    "jobTitle": "{{AUTHOR_POSITION}}",
+    "url": "{{AUTHOR_URL}}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ARclinic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://arclinic.ru/local/templates/arclinic/img/favicon/apple-touch-icon.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ARTICLE_URL}}"
+  },
+  "image": "{{ARTICLE_IMAGE}}",
+  "medicalAudience": {
+    "@type": "PeopleAudience",
+    "suggestedMinAge": 18
+  }
+}
