@@ -1,0 +1,42 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "bash": {
+      "*": "ask",
+      "rm -rf *": "deny",
+      "rm -r *": "deny",
+      "rm -f *": "deny",
+      "rm --recursive *": "deny",
+      "Remove-Item -Recurse *": "deny",
+      "Remove-Item -Force *": "deny",
+      "del /F *": "deny",
+      "del /S *": "deny",
+      "rd /S *": "deny",
+      "rmdir /S *": "deny",
+      "* curl * $*": "deny",
+      "* curl * %*% *": "deny",
+      "* curl *--data*": "deny",
+      "* curl *-d *": "deny",
+      "* curl *-X POST*": "deny",
+      "* wget *$*": "deny",
+      "* wget *%*%*": "deny",
+      "export *": "deny",
+      "set *": "deny",
+      "$env:*": "deny"
+    },
+    "external_directory": {
+      "**/.env": "deny",
+      "**/.env.*": "deny",
+      "**/secrets/**": "deny",
+      "**/keys/**": "deny",
+      "**/certificates/**": "deny",
+      "**/*.pem": "deny",
+      "**/*.key": "deny",
+      "**/*.cert": "deny",
+      "**/token*": "deny",
+      "**/credential*": "deny",
+      "**/password*": "deny",
+      "*": "allow"
+    }
+  }
+}
