@@ -1,0 +1,7 @@
+JuliaReznik/
+Whisper-Skill/
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
