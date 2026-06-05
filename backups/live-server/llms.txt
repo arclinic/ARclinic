@@ -1,0 +1,59 @@
+# ARclinic - Центр антивозрастной медицины и косметологии
+> ARclinic - медицинский центр в Санкт-Петербурге (ул. Верейская, 44 к.2). Специализация: антивозрастная медицина, косметология, гинекология, эндокринология, неврология, диетология, дерматология, УЗИ-диагностика, чекапы. Телефон: +7 (931) 244-00-44.
+
+## О клинике
+- [О нас](https://arclinic.ru/about/): информация о клинике, миссия, принципы работы
+- [Специалисты](https://arclinic.ru/doctors/): команда врачей клиники
+- [Отзывы](https://arclinic.ru/reviews/): отзывы пациентов
+- [Новости](https://arclinic.ru/news/): новости и события клиники
+- [Блог](https://arclinic.ru/blog/): статьи и полезные материалы
+- [Вакансии](https://arclinic.ru/vakansii/): карьера в ARclinic
+- [Правовая информация](https://arclinic.ru/about/legal-information/): документы и политика
+
+## Центр косметологии
+- [Аппаратная косметология](https://arclinic.ru/services/cosmetology/apparat/): SMAS-лифтинг UltraformerIII, RF-лифтинг VIRTUE, лазеры DEKA/Fotona/M22/Ellipse Nordlys, Icoone Laser, микротоки, фототерапия
+- [Инъекционная косметология](https://arclinic.ru/services/cosmetology/injection/): ботулинотерапия, биоревитализация, контурная пластика, плацентотерапия, коллагенотерапия, липофилинг, мезотерапия
+- [Эстетическая косметология](https://arclinic.ru/services/cosmetology/estetic/): пилинги (Peach Peel), чистки, массажи лица
+- [Лечение осложнений](https://arclinic.ru/services/cosmetology/lechenie/): коррекция последствий пластической хирургии и косметологии
+- [Комплексная косметология](https://arclinic.ru/services/cosmetology/komplex/): программы anti-age
+- [Консультации специалистов](https://arclinic.ru/services/cosmetology/konsult/): приёмы врачей-косметологов
+- [Фотодинамическая терапия](https://arclinic.ru/services/cosmetology/apparat/): Revixan
+
+## Центр здоровья
+- [Гинекология](https://arclinic.ru/services/health-center/ginekologiya/): приёмы, ЗГТ, эстетическая гинекология, лазерное омоложение
+- [Эндокринология](https://arclinic.ru/services/health-center/endokrinologiya/): anti-age, диагностика, подбор терапии
+- [Неврология](https://arclinic.ru/services/health-center/nevrologiya/): лечение головных болей ботулотоксином
+- [Диетология](https://arclinic.ru/services/health-center/dietologiya/): нутрициология, коррекция веса
+- [Дерматология](https://arclinic.ru/services/health-center/dermatologiya/): диагностика и лечение кожных заболеваний
+- [Лабораторная диагностика](https://arclinic.ru/services/health-center/laboratornye-analizy/): анализы
+- [УЗИ](https://arclinic.ru/services/health-center/uzi/): ультразвуковая диагностика
+- [Функциональная диагностика](https://arclinic.ru/services/health-center/funktsionalnaya-diagnostika/): биоимпедансметрия, ЭКГ
+- [Чекапы](https://arclinic.ru/services/health-center/chek-apy/): комплексные обследования
+
+## Для мужчин
+- [Уходовые процедуры](https://arclinic.ru/services/men/ukhodovye-protsedury/)
+- [Аппаратная косметология](https://arclinic.ru/services/men/apparatnaya-kosmetologiya/)
+- [Инъекционные процедуры](https://arclinic.ru/services/men/inektsionnye-protsedury/)
+- [Чекапы](https://arclinic.ru/services/men/chekapy/)
+
+## Цены и акции
+- [Цены](https://arclinic.ru/prices/): полный прайс-лист
+- [Абонементы](https://arclinic.ru/sales/): скидки на серии процедур
+- [Акции](https://arclinic.ru/promotions/): сезонные предложения
+
+## Полезное
+- [Подарочный сертификат](https://arclinic.ru/gift-card/)
+- [Онлайн-консультации](https://arclinic.ru/telemeditsina/)
+- [Аппараты и препараты](https://arclinic.ru/devices/)
+- [Карта сайта](https://arclinic.ru/sitemap)
+- [Контакты](https://arclinic.ru/contacts/)
+
+## Часы работы
+- Пн-Пт: 09:00-21:00
+- Сб: 10:00-18:00
+- Вс: выходной
+
+## Контакты
+- Адрес: СПб, ул. Верейская, 44 к.2
+- Телефон: +7 (931) 244-00-44
+- Сайт: https://arclinic.ru

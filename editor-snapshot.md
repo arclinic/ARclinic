@@ -1,0 +1,726 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - row "Сайт Администрирование Сайт под защитой 4 Настройки поиск... sotbi Выйти RU Настройка горячих клавиш ( Ctrl+Alt+P ) Прикрепить панель Помощь" [ref=e4]:
+      - cell "Сайт Администрирование Сайт под защитой 4 Настройки поиск... sotbi Выйти RU Настройка горячих клавиш ( Ctrl+Alt+P ) Прикрепить панель Помощь" [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - generic [ref=e8]:
+              - link "Сайт" [ref=e9] [cursor=pointer]:
+                - /url: /?back_url_admin=%2Fbitrix%2Fadmin%2Ffileman_file_edit.php%3Flang%3Dru%26path%3D%252Flocal%252Ftemplates%252Farclinic%252Fheader.php%26full_src%3DY
+              - link "Администрирование" [ref=e10] [cursor=pointer]:
+                - /url: /bitrix/admin/index.php?lang=ru
+            - link "Сайт под защитой" [ref=e11] [cursor=pointer]:
+              - /url: /bitrix/admin/security_dashboard.php
+              - generic [ref=e12]: Сайт под защитой
+            - generic "Просмотр уведомлений" [ref=e13] [cursor=pointer]:
+              - generic [ref=e15]: "4"
+            - link "Настройки" [ref=e16] [cursor=pointer]:
+              - /url: /bitrix/admin/settings.php?lang=ru&mid=fileman&back_url_settings=%2Fbitrix%2Fadmin%2Ffileman_file_edit.php%3Flang%3Dru%26path%3D%252Flocal%252Ftemplates%252Farclinic%252Fheader.php%26full_src%3DY
+          - generic [ref=e17]:
+            - generic [ref=e18]:
+              - textbox [ref=e19]: поиск...
+              - link [ref=e20]:
+                - /url: "#"
+            - generic [ref=e21]:
+              - link "sotbi" [ref=e22] [cursor=pointer]:
+                - /url: /bitrix/admin/user_edit.php?lang=ru&ID=1
+              - link "Выйти" [ref=e23] [cursor=pointer]:
+                - /url: /bitrix/admin/fileman_file_edit.php?logout=yes&lang=ru&path=%2Flocal%2Ftemplates%2Farclinic%2Fheader.php&full_src=Y
+              - link "RU" [ref=e24] [cursor=pointer]:
+                - /url: /bitrix/admin/fileman_file_edit.php?lang=ru&path=%2Flocal%2Ftemplates%2Farclinic%2Fheader.php&full_src=Y
+              - link "Настройка горячих клавиш ( Ctrl+Alt+P )" [ref=e25] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Прикрепить панель" [ref=e26] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - generic [ref=e27] [cursor=pointer]: Помощь
+    - row [ref=e30]:
+      - cell [ref=e31]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - link "Рабочий стол" [ref=e35] [cursor=pointer]:
+              - /url: index.php?lang=ru
+              - generic [ref=e37]: Рабочий стол
+            - generic [ref=e41] [cursor=pointer]: Контент
+            - generic [ref=e45] [cursor=pointer]: Сайты
+            - generic [ref=e49] [cursor=pointer]: Маркетинг
+            - generic [ref=e53] [cursor=pointer]: Клиенты
+            - generic [ref=e57] [cursor=pointer]: Сервисы
+            - link "Marketplace" [ref=e59] [cursor=pointer]:
+              - /url: update_system_market.php?lang=ru
+              - generic [ref=e61]: Marketplace
+            - generic [ref=e65] [cursor=pointer]: Настройки
+          - table [ref=e71]:
+            - rowgroup [ref=e72]:
+              - row [ref=e73]:
+                - cell [ref=e74]:
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: Контент
+                    - generic [ref=e77]:
+                      - generic [ref=e78]:
+                        - link "Структура сайта" [ref=e82] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                          - generic [ref=e84]: Структура сайта
+                        - generic [ref=e85]:
+                          - generic [ref=e86]:
+                            - link "Сайт по умолчанию" [ref=e90] [cursor=pointer]:
+                              - /url: fileman_admin.php?lang=ru&site=s1&logical=Y&path=%2F
+                              - generic [ref=e91]: Сайт по умолчанию
+                            - generic [ref=e92]:
+                              - link "articles" [ref=e97] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Farticles&site=s1&logical=Y
+                                - generic [ref=e99]: articles
+                              - link "Абонементы" [ref=e104] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fsales&site=s1&logical=Y
+                                - generic [ref=e106]: Абонементы
+                              - link "Акции" [ref=e111] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fpromotions&site=s1&logical=Y
+                                - generic [ref=e113]: Акции
+                              - link "Аппараты и препараты" [ref=e118] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fdevices&site=s1&logical=Y
+                                - generic [ref=e120]: Аппараты и препараты
+                              - link "Блог" [ref=e125] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fblog&site=s1&logical=Y
+                                - generic [ref=e127]: Блог
+                              - link "Вакансии" [ref=e132] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fvakansii&site=s1&logical=Y
+                                - generic [ref=e134]: Вакансии
+                              - link "Инстаграмм" [ref=e139] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Finstafeed&site=s1&logical=Y
+                                - generic [ref=e141]: Инстаграмм
+                              - link "Контакты" [ref=e146] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fcontacts&site=s1&logical=Y
+                                - generic [ref=e148]: Контакты
+                              - link "Новости" [ref=e153] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fnews&site=s1&logical=Y
+                                - generic [ref=e155]: Новости
+                              - link "О клинике" [ref=e160] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fabout&site=s1&logical=Y
+                                - generic [ref=e162]: О клинике
+                              - link "Отзывы" [ref=e167] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Freviews&site=s1&logical=Y
+                                - generic [ref=e169]: Отзывы
+                              - link "Отзывы" [ref=e174] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fotzyv&site=s1&logical=Y
+                                - generic [ref=e176]: Отзывы
+                              - link "Памятки" [ref=e181] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fpamyatki&site=s1&logical=Y
+                                - generic [ref=e183]: Памятки
+                              - link "Подарочный сертификат" [ref=e188] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fgift-card&site=s1&logical=Y
+                                - generic [ref=e190]: Подарочный сертификат
+                              - link "Программа лояльности" [ref=e195] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Floyalty-program&site=s1&logical=Y
+                                - generic [ref=e197]: Программа лояльности
+                              - link "Результаты поиска" [ref=e202] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fsearch&site=s1&logical=Y
+                                - generic [ref=e204]: Результаты поиска
+                              - link "Специалисты" [ref=e209] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fdoctors&site=s1&logical=Y
+                                - generic [ref=e211]: Специалисты
+                              - link "Телемедицина" [ref=e216] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Ftelemeditsina&site=s1&logical=Y
+                                - generic [ref=e218]: Телемедицина
+                              - link "Услуги" [ref=e223] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fservices&site=s1&logical=Y
+                                - generic [ref=e225]: Услуги
+                              - link "Цены" [ref=e230] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fprices&site=s1&logical=Y
+                                - generic [ref=e232]: Цены
+                          - generic [ref=e233]:
+                            - link "Файлы и папки" [ref=e237] [cursor=pointer]:
+                              - /url: fileman_admin.php?lang=ru&path=%2F
+                              - generic [ref=e238]: Файлы и папки
+                            - generic [ref=e239]:
+                              - link ".cache" [ref=e244] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2F.cache&site=s1
+                                - generic [ref=e246]: .cache
+                              - link ".idea" [ref=e251] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2F.idea&site=s1
+                                - generic [ref=e253]: .idea
+                              - link "about" [ref=e258] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fabout&site=s1
+                                - generic [ref=e260]: about
+                              - link "articles" [ref=e265] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Farticles&site=s1
+                                - generic [ref=e267]: articles
+                              - link "bitrix" [ref=e272] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fbitrix&site=s1
+                                - generic [ref=e274]: bitrix
+                              - link "blog" [ref=e279] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fblog&site=s1
+                                - generic [ref=e281]: blog
+                              - link "contacts" [ref=e286] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fcontacts&site=s1
+                                - generic [ref=e288]: contacts
+                              - link "devices" [ref=e293] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fdevices&site=s1
+                                - generic [ref=e295]: devices
+                              - link "doctors" [ref=e300] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fdoctors&site=s1
+                                - generic [ref=e302]: doctors
+                              - link "form-page" [ref=e307] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fform-page&site=s1
+                                - generic [ref=e309]: form-page
+                              - link "gift-card" [ref=e314] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fgift-card&site=s1
+                                - generic [ref=e316]: gift-card
+                              - link "images" [ref=e321] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fimages&site=s1
+                                - generic [ref=e323]: images
+                              - link "include" [ref=e328] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Finclude&site=s1
+                                - generic [ref=e330]: include
+                              - link "instafeed" [ref=e335] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Finstafeed&site=s1
+                                - generic [ref=e337]: instafeed
+                              - generic [ref=e338]:
+                                - link "local" [ref=e342] [cursor=pointer]:
+                                  - /url: fileman_admin.php?lang=ru&path=%2Flocal&site=s1
+                                  - generic [ref=e344]: local
+                                - generic [ref=e345]:
+                                  - link ".idea" [ref=e350] [cursor=pointer]:
+                                    - /url: fileman_admin.php?lang=ru&path=%2Flocal%2F.idea&site=s1
+                                    - generic [ref=e352]: .idea
+                                  - link "components" [ref=e357] [cursor=pointer]:
+                                    - /url: fileman_admin.php?lang=ru&path=%2Flocal%2Fcomponents&site=s1
+                                    - generic [ref=e359]: components
+                                  - link "src" [ref=e364] [cursor=pointer]:
+                                    - /url: fileman_admin.php?lang=ru&path=%2Flocal%2Fsrc&site=s1
+                                    - generic [ref=e366]: src
+                                  - generic [ref=e367]:
+                                    - link "templates" [ref=e371] [cursor=pointer]:
+                                      - /url: fileman_admin.php?lang=ru&path=%2Flocal%2Ftemplates&site=s1
+                                      - generic [ref=e373]: templates
+                                    - generic [ref=e375]:
+                                      - link "arclinic" [ref=e379] [cursor=pointer]:
+                                        - /url: fileman_admin.php?lang=ru&path=%2Flocal%2Ftemplates%2Farclinic&site=s1
+                                        - generic [ref=e381]: arclinic
+                                      - generic [ref=e382]:
+                                        - link "components" [ref=e387] [cursor=pointer]:
+                                          - /url: fileman_admin.php?lang=ru&path=%2Flocal%2Ftemplates%2Farclinic%2Fcomponents&site=s1
+                                          - generic [ref=e389]: components
+                                        - link "fonts" [ref=e394] [cursor=pointer]:
+                                          - /url: fileman_admin.php?lang=ru&path=%2Flocal%2Ftemplates%2Farclinic%2Ffonts&site=s1
+                                          - generic [ref=e396]: fonts
+                                        - link "img" [ref=e401] [cursor=pointer]:
+                                          - /url: fileman_admin.php?lang=ru&path=%2Flocal%2Ftemplates%2Farclinic%2Fimg&site=s1
+                                          - generic [ref=e403]: img
+                                        - link "js" [ref=e408] [cursor=pointer]:
+                                          - /url: fileman_admin.php?lang=ru&path=%2Flocal%2Ftemplates%2Farclinic%2Fjs&site=s1
+                                          - generic [ref=e410]: js
+                              - link "loyalty-program" [ref=e415] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Floyalty-program&site=s1
+                                - generic [ref=e417]: loyalty-program
+                              - link "news" [ref=e422] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fnews&site=s1
+                                - generic [ref=e424]: news
+                              - link "node_modules" [ref=e429] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fnode_modules&site=s1
+                                - generic [ref=e431]: node_modules
+                              - link "otzyv" [ref=e436] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fotzyv&site=s1
+                                - generic [ref=e438]: otzyv
+                              - link "pamyatki" [ref=e443] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fpamyatki&site=s1
+                                - generic [ref=e445]: pamyatki
+                              - link "prices" [ref=e450] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fprices&site=s1
+                                - generic [ref=e452]: prices
+                              - link "promotions" [ref=e457] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fpromotions&site=s1
+                                - generic [ref=e459]: promotions
+                              - link "reviews" [ref=e464] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Freviews&site=s1
+                                - generic [ref=e466]: reviews
+                              - link "sales" [ref=e471] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fsales&site=s1
+                                - generic [ref=e473]: sales
+                              - link "search" [ref=e478] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fsearch&site=s1
+                                - generic [ref=e480]: search
+                              - link "services" [ref=e485] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fservices&site=s1
+                                - generic [ref=e487]: services
+                              - link "sitemap" [ref=e492] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fsitemap&site=s1
+                                - generic [ref=e494]: sitemap
+                              - link "telemeditsina" [ref=e499] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Ftelemeditsina&site=s1
+                                - generic [ref=e501]: telemeditsina
+                              - link "upload" [ref=e506] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fupload&site=s1
+                                - generic [ref=e508]: upload
+                              - link "vakansii" [ref=e513] [cursor=pointer]:
+                                - /url: fileman_admin.php?lang=ru&path=%2Fvakansii&site=s1
+                                - generic [ref=e515]: vakansii
+                          - generic [ref=e516]:
+                            - link "Медиабиблиотека" [ref=e520] [cursor=pointer]:
+                              - /url: fileman_medialib_admin.php?lang=ru
+                              - generic [ref=e521]: Медиабиблиотека
+                            - generic [ref=e522]:
+                              - link "Изображения" [ref=e527] [cursor=pointer]:
+                                - /url: fileman_medialib_admin.php?lang=ru&type=1
+                                - generic [ref=e528]: Изображения
+                              - link "Видео" [ref=e533] [cursor=pointer]:
+                                - /url: fileman_medialib_admin.php?lang=ru&type=2
+                                - generic [ref=e534]: Видео
+                              - link "Аудио" [ref=e539] [cursor=pointer]:
+                                - /url: fileman_medialib_admin.php?lang=ru&type=3
+                                - generic [ref=e540]: Аудио
+                      - generic [ref=e541]:
+                        - link "Простые" [ref=e545] [cursor=pointer]:
+                          - /url: iblock_admin.php?type=simple&lang=ru&admin=N
+                          - generic [ref=e547]: Простые
+                        - generic [ref=e548]:
+                          - link "Абонементы" [ref=e553] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=4&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e555]: Абонементы
+                          - link "Аппараты и препараты" [ref=e560] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=15&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e562]: Аппараты и препараты
+                          - link "Блог" [ref=e567] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=18&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e569]: Блог
+                          - link "Вопросы" [ref=e574] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=7&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e576]: Вопросы
+                          - link "Галерея" [ref=e581] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=16&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e583]: Галерея
+                          - link "Новости" [ref=e588] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=8&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e590]: Новости
+                          - link "Отзывы" [ref=e595] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=9&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e597]: Отзывы
+                          - link "Порталы для отзывов" [ref=e602] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=17&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e604]: Порталы для отзывов
+                          - link "Результаты работ" [ref=e609] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=5&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e611]: Результаты работ
+                          - link "Специалисты" [ref=e616] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=3&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e618]: Специалисты
+                          - link "Статьи" [ref=e623] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=14&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e625]: Статьи
+                          - link "Услуги" [ref=e630] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=1&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e632]: Услуги
+                          - link "Цены" [ref=e637] [cursor=pointer]:
+                            - /url: iblock_section_admin.php?IBLOCK_ID=2&type=simple&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                            - generic [ref=e639]: Цены
+                      - generic [ref=e640]:
+                        - link "Другие акции" [ref=e644] [cursor=pointer]:
+                          - /url: iblock_admin.php?type=actions&lang=ru&admin=N
+                          - generic [ref=e646]: Другие акции
+                        - link "Дополнительные акции" [ref=e652] [cursor=pointer]:
+                          - /url: iblock_section_admin.php?IBLOCK_ID=24&type=actions&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                          - generic [ref=e654]: Дополнительные акции
+                      - link "Обратная связь" [ref=e659] [cursor=pointer]:
+                        - /url: iblock_admin.php?type=feedback&lang=ru&admin=N
+                        - generic [ref=e661]: Обратная связь
+                      - generic [ref=e662]:
+                        - link "Акции" [ref=e666] [cursor=pointer]:
+                          - /url: iblock_admin.php?type=promotions&lang=ru&admin=N
+                          - generic [ref=e668]: Акции
+                        - link "Акции" [ref=e674] [cursor=pointer]:
+                          - /url: iblock_section_admin.php?IBLOCK_ID=23&type=promotions&lang=ru&find_section_section=0&SECTION_ID=0&apply_filter=Y
+                          - generic [ref=e676]: Акции
+                      - generic [ref=e677]:
+                        - link "Инфоблоки" [ref=e681] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                          - generic [ref=e683]: Инфоблоки
+                        - generic [ref=e684]:
+                          - link "Экспорт" [ref=e689] [cursor=pointer]:
+                            - /url: iblock_data_export.php?lang=ru
+                            - generic [ref=e690]: Экспорт
+                          - link "Импорт" [ref=e695] [cursor=pointer]:
+                            - /url: iblock_data_import.php?lang=ru
+                            - generic [ref=e696]: Импорт
+                          - generic [ref=e697]:
+                            - link "Типы инфоблоков" [ref=e701] [cursor=pointer]:
+                              - /url: iblock_type_admin.php?lang=ru
+                              - generic [ref=e702]: Типы инфоблоков
+                            - generic [ref=e703]:
+                              - link "Простые" [ref=e708] [cursor=pointer]:
+                                - /url: iblock_admin.php?type=simple&lang=ru&admin=Y
+                                - generic [ref=e710]: Простые
+                              - link "Другие акции" [ref=e715] [cursor=pointer]:
+                                - /url: iblock_admin.php?type=actions&lang=ru&admin=Y
+                                - generic [ref=e717]: Другие акции
+                              - link "Контент" [ref=e722] [cursor=pointer]:
+                                - /url: iblock_admin.php?type=content&lang=ru&admin=Y
+                                - generic [ref=e724]: Контент
+                              - link "Обратная связь" [ref=e729] [cursor=pointer]:
+                                - /url: iblock_admin.php?type=feedback&lang=ru&admin=Y
+                                - generic [ref=e731]: Обратная связь
+                              - link "Акции" [ref=e736] [cursor=pointer]:
+                                - /url: iblock_admin.php?type=promotions&lang=ru&admin=Y
+                                - generic [ref=e738]: Акции
+                          - link "Фасетные индексы" [ref=e743] [cursor=pointer]:
+                            - /url: iblock_reindex_admin.php?lang=ru
+                            - generic [ref=e744]: Фасетные индексы
+                          - generic [ref=e745]:
+                            - link "Инструменты" [ref=e749] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                              - generic [ref=e750]: Инструменты
+                            - link "Перейти к инфоблоку / разделу / элементу" [ref=e756] [cursor=pointer]:
+                              - /url: iblock_redirect_entity.php?lang=ru
+                              - generic [ref=e757]: Перейти к инфоблоку / разделу / элементу
+                      - link "Highload-блоки" [ref=e762] [cursor=pointer]:
+                        - /url: highloadblock_index.php?lang=ru
+                        - generic [ref=e764]: Highload-блоки
+      - cell [ref=e766]:
+        - generic [ref=e767]:
+          - generic [ref=e768]:
+            - link "Рабочий стол" [ref=e769] [cursor=pointer]:
+              - /url: /bitrix/admin/index.php?lang=ru
+              - generic [ref=e770]: Рабочий стол
+            - link "Контент" [ref=e773] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e774]: Контент
+            - link "Структура сайта" [ref=e777] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e778]: Структура сайта
+            - link "Файлы и папки" [ref=e781] [cursor=pointer]:
+              - /url: fileman_admin.php?lang=ru&path=%2F
+              - generic [ref=e782]: Файлы и папки
+            - link "local" [ref=e785] [cursor=pointer]:
+              - /url: /bitrix/admin/fileman_admin.php?lang=ru&&path=%2Flocal&site=s1
+              - generic [ref=e786]: local
+            - link "templates" [ref=e788] [cursor=pointer]:
+              - /url: /bitrix/admin/fileman_admin.php?lang=ru&&path=%2Flocal%2Ftemplates&site=s1
+              - generic [ref=e789]: templates
+            - link "arclinic" [ref=e791] [cursor=pointer]:
+              - /url: /bitrix/admin/fileman_admin.php?lang=ru&&path=%2Flocal%2Ftemplates%2Farclinic&site=s1
+              - generic [ref=e792]: arclinic
+            - generic [ref=e795]: header.php
+          - heading "Редактирование файла \"header.php\" Добавить в избранное" [level=1] [ref=e796]:
+            - text: Редактирование файла "header.php"
+            - link "Добавить в избранное" [ref=e797] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e799]:
+            - link "Просмотр файла" [ref=e800] [cursor=pointer]:
+              - /url: /bitrix/admin/fileman_file_view.php?lang=ru&site=s1&path=%2Flocal%2Ftemplates%2Farclinic%2Fheader.php
+            - link "Редактировать" [ref=e801] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "Переименовать" [ref=e802] [cursor=pointer]:
+              - /url: /bitrix/admin/fileman_rename.php?lang=ru&site=s1&path=%2Flocal%2Ftemplates%2Farclinic&files[]=header.php
+            - link "Скачать файл" [ref=e803] [cursor=pointer]:
+              - /url: /bitrix/admin/fileman_file_download.php?lang=ru&site=s1&path=%2Flocal%2Ftemplates%2Farclinic%2Fheader.php
+            - link "Удалить файл" [ref=e804] [cursor=pointer]:
+              - /url: javascript:if(confirm('Вы действительно хотите удалить файл?')) window.location='/bitrix/admin/fileman_admin.php?ID=header.php&action=delete&lang=ru&site=s1&path=%2Flocal%2Ftemplates%2Farclinic&sessid=f78459e8bc00778beee9b0f87250d997';
+          - generic [ref=e806]:
+            - generic [ref=e807]:
+              - generic "Редактирование файла ( Ctrl+Alt+Q )" [ref=e808]: Редактирование файла
+              - generic "Открепить панель" [ref=e809] [cursor=pointer]
+            - generic [ref=e810]:
+              - generic [ref=e811]:
+                - generic [ref=e812]: Редактирование файла
+                - table [ref=e814]:
+                  - rowgroup [ref=e815]:
+                    - row [ref=e816]:
+                      - cell [ref=e817]:
+                        - generic [ref=e818]:
+                          - generic [ref=e819]:
+                            - textbox [active] [ref=e820]
+                            - generic [ref=e825]:
+                              - generic [ref=e827]:
+                                - generic [ref=e828]: "1"
+                                - generic [ref=e829]: "2"
+                                - generic [ref=e830]: "3"
+                                - generic [ref=e831]: "4"
+                                - generic [ref=e832]: "5"
+                                - generic [ref=e833]: "6"
+                                - generic [ref=e834]: "7"
+                                - generic [ref=e835]: "8"
+                                - generic [ref=e836]: "9"
+                                - generic [ref=e837]: "10"
+                                - generic [ref=e838]: "11"
+                                - generic [ref=e839]: "12"
+                                - generic [ref=e840]: "13"
+                                - generic [ref=e841]: "14"
+                                - generic [ref=e842]: "15"
+                                - generic [ref=e843]: "16"
+                                - generic [ref=e844]: "17"
+                                - generic [ref=e845]: "18"
+                                - generic [ref=e846]: "19"
+                                - generic [ref=e847]: "20"
+                                - generic [ref=e848]: "21"
+                                - generic [ref=e849]: "22"
+                                - generic [ref=e850]: "23"
+                                - generic [ref=e851]: "24"
+                                - generic [ref=e852]: "25"
+                                - generic [ref=e853]: "26"
+                                - generic [ref=e854]: "27"
+                                - generic [ref=e855]: "28"
+                                - generic [ref=e856]: "29"
+                                - generic [ref=e857]: "30"
+                                - generic [ref=e858]: "31"
+                                - generic [ref=e859]: "32"
+                                - generic [ref=e860]: "33"
+                                - generic [ref=e861]: "34"
+                                - generic [ref=e862]: "35"
+                                - generic [ref=e863]: "36"
+                                - generic [ref=e864]: "37"
+                                - generic [ref=e865]: "38"
+                                - generic [ref=e866]: "39"
+                                - generic [ref=e867]: "40"
+                                - generic [ref=e868]: "41"
+                                - generic [ref=e869]: "42"
+                                - generic [ref=e870]: "43"
+                                - generic [ref=e871]: "44"
+                                - generic [ref=e872]: "45"
+                                - generic [ref=e873]: "46"
+                                - generic [ref=e874]: "47"
+                                - generic [ref=e875]: "48"
+                                - generic [ref=e876]: "49"
+                                - generic [ref=e877]: "50"
+                                - generic [ref=e878]: "51"
+                                - generic [ref=e879]: "52"
+                                - generic [ref=e880]: "53"
+                                - generic [ref=e881]: "54"
+                                - generic [ref=e882]: "55"
+                                - generic [ref=e883]: "56"
+                                - generic [ref=e884]: "57"
+                                - generic [ref=e885]: "58"
+                                - generic [ref=e886]: "59"
+                                - generic [ref=e887]: "60"
+                                - generic [ref=e888]: "61"
+                                - generic [ref=e889]: "62"
+                                - generic [ref=e890]: "63"
+                                - generic [ref=e891]: "64"
+                                - generic [ref=e892]: "65"
+                                - generic [ref=e893]: "66"
+                                - generic [ref=e894]: "67"
+                                - generic [ref=e895]: "68"
+                                - generic [ref=e896]: "69"
+                                - generic [ref=e897]: "70"
+                                - generic [ref=e898]: "71"
+                                - generic [ref=e899]: "72"
+                                - generic [ref=e900]: "73"
+                                - generic [ref=e901]: "74"
+                                - generic [ref=e902]: "75"
+                                - generic [ref=e903]: "76"
+                                - generic [ref=e904]: "77"
+                                - generic [ref=e905]: "78"
+                                - generic [ref=e906]: "79"
+                                - generic [ref=e907]: "80"
+                                - generic [ref=e908]: "81"
+                                - generic [ref=e909]: "82"
+                                - generic [ref=e910]: "83"
+                                - generic [ref=e911]: "84"
+                                - generic [ref=e912]: "85"
+                                - generic [ref=e913]: "86"
+                                - generic [ref=e914]: "87"
+                                - generic [ref=e915]: "88"
+                                - generic [ref=e916]: "89"
+                                - generic [ref=e917]: "90"
+                                - generic [ref=e918]: "91"
+                                - generic [ref=e919]: "92"
+                                - generic [ref=e920]: "93"
+                                - generic [ref=e921]: "94"
+                                - generic [ref=e922]: "95"
+                                - generic [ref=e923]: "96"
+                                - generic [ref=e924]: "97"
+                                - generic [ref=e925]: "98"
+                                - generic [ref=e926]: "99"
+                                - generic [ref=e927]: "100"
+                                - generic [ref=e928]: "101"
+                                - generic [ref=e929]: "102"
+                                - generic [ref=e930]: "103"
+                                - generic [ref=e931]: "104"
+                                - generic [ref=e932]: "105"
+                                - generic [ref=e933]: "106"
+                                - generic [ref=e934]: "107"
+                                - generic [ref=e935]: "108"
+                                - generic [ref=e936]: "109"
+                                - generic [ref=e937]: "110"
+                                - generic [ref=e938]: "111"
+                                - generic [ref=e939]: "112"
+                                - generic [ref=e940]: "113"
+                                - generic [ref=e941]: "114"
+                                - generic [ref=e942]: "115"
+                                - generic [ref=e943]: "116"
+                                - generic [ref=e944]: "117"
+                                - generic [ref=e945]: "118"
+                                - generic [ref=e946]: "119"
+                                - generic [ref=e947]: "120"
+                                - generic [ref=e948]: "121"
+                                - generic [ref=e949]: "122"
+                                - generic [ref=e950]: "123"
+                                - generic [ref=e951]: "124"
+                                - generic [ref=e952]: "125"
+                                - generic [ref=e953]: "126"
+                                - generic [ref=e954]: "127"
+                                - generic [ref=e955]: "128"
+                                - generic [ref=e956]: "129"
+                                - generic [ref=e957]: "130"
+                                - generic [ref=e958]: "131"
+                              - generic [ref=e962]:
+                                - generic [ref=e963]: <!DOCTYPE html>
+                                - generic [ref=e964]: "<html prefix=\"og: http://ogp.me/ns#\" xml:lang=\"<?= LANGUAGE_ID ?>\" lang=\"<?= LANGUAGE_ID ?>\">"
+                                - generic [ref=e965]: <head>
+                                - generic [ref=e966]: <meta charset="UTF-8">
+                                - generic [ref=e967]: <link rel="canonical" href="https://arclinic.ru<?= $APPLICATION->GetCurPage() ?>">
+                                - generic [ref=e968]: "<script type=\"text/javascript\">!function(){var t=document.createElement(\"script\");t.type=\"text/javascript\",t.async=!0,t.src='https://vk.com/js/api/openapi.js?169',t.onload=function(){VK.Retargeting.Init(\"VK-RTRG-1830745-gEiBa\"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src=\"https://vk.com/rtrg?p=VK-RTRG-1830745-gEiBa\" style=\"position:fixed; left:-999px;\" alt=\"\"/></noscript>"
+                                - generic [ref=e969]: <!-- Top.Mail.Ru counter -->
+                                - generic [ref=e970]: <script type="text/javascript">
+                                - generic [ref=e971]: var _tmr = window._tmr || (window._tmr = []);
+                                - generic [ref=e972]: "_tmr.push({id: \"3464930\", type: \"pageView\", start: (new Date()).getTime()});"
+                                - generic [ref=e973]: "(function (d, w, id) {"
+                                - generic [ref=e974]: if (d.getElementById(id)) return;
+                                - generic [ref=e975]: var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+                                - generic [ref=e976]: ts.src = "https://top-fwz1.mail.ru/js/code.js";
+                                - generic [ref=e977]: "var f = function () {var s = d.getElementsByTagName(\"script\")[0]; s.parentNode.insertBefore(ts, s);};"
+                                - generic [ref=e978]: "if (w.opera == \"[object Opera]\") { d.addEventListener(\"DOMContentLoaded\", f, false); } else { f(); }"
+                                - generic [ref=e979]: "})(document, window, \"tmr-code\");"
+                                - generic [ref=e980]: </script>
+                                - generic [ref=e981]: <noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3464930;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+                                - generic [ref=e982]: <!-- /Top.Mail.Ru counter -->
+                                - generic [ref=e983]: <!-- Yandex.Metrika counter -->
+                                - generic [ref=e984]: <script type="text/javascript" >
+                                - generic [ref=e985]: "(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};"
+                                - generic [ref=e986]: m[i].l=1*new Date();
+                                - generic [ref=e987]: "for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}"
+                                - generic [ref=e988]: "k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})"
+                                - generic [ref=e989]: (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+                                - generic [ref=e991]: "ym(46088019, \"init\", {"
+                                - generic [ref=e992]: clickmap:true,
+                                - generic [ref=e993]: trackLinks:true,
+                                - generic [ref=e994]: accurateTrackBounce:true,
+                                - generic [ref=e995]: webvisor:true,
+                                - generic [ref=e996]: ecommerce:"dataLayer"
+                                - generic [ref=e997]: "});"
+                                - generic [ref=e998]: </script>
+                                - generic [ref=e999]: <script defer src="https://booking.medflex.ru/components/round/round_widget_button.js" charset="utf-8"></script>
+                                - generic [ref=e1000]: <noscript><div><img src="https://mc.yandex.ru/watch/46088019" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                                - generic [ref=e1001]: <!-- /Yandex.Metrika counter -->
+                                - generic [ref=e1002]: <!-- VK pixel start -->
+                                - generic [ref=e1003]: "<script type=\"text/javascript\">!function(){var t=document.createElement(\"script\");t.type=\"text/javascript\",t.async=!0,t.src='https://vk.com/js/api/openapi.js?173',t.onload=function(){VK.Retargeting.Init(\"VK-RTRG-1882167-8fXzw\"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src=\"https://vk.com/rtrg?p=VK-RTRG-1882167-8fXzw\" style=\"position:fixed; left:-999px;\" alt=\"\"/></noscript>"
+                                - generic [ref=e1004]: <!-- VK pixel end -->
+                                - generic [ref=e1005]: <!-- Marquiz script start -->
+                                - generic [ref=e1006]: <script>
+                                - generic [ref=e1007]: "(function(w, d, s, o){"
+                                - generic [ref=e1008]: "var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {"
+                                - generic [ref=e1009]: if (document.readyState !== 'loading') Marquiz.init(o);
+                                - generic [ref=e1010]: "else document.addEventListener(\"DOMContentLoaded\", function() {"
+                                - generic [ref=e1011]: Marquiz.init(o);
+                                - generic [ref=e1012]: "});"
+                                - generic [ref=e1013]: "};"
+                                - generic [ref=e1014]: d.head.insertBefore(j, d.head.firstElementChild);
+                                - generic [ref=e1015]: "})(window, document, 'script', {"
+                                - generic [ref=e1016]: "host: '//quiz.marquiz.ru',"
+                                - generic [ref=e1017]: "region: 'eu',"
+                                - generic [ref=e1018]: "id: '65f30bbb1a58600026dc3d4d',"
+                                - generic [ref=e1019]: "autoOpen: false,"
+                                - generic [ref=e1020]: "autoOpenFreq: 'once',"
+                                - generic [ref=e1021]: "openOnExit: false,"
+                                - generic [ref=e1022]: "disableOnMobile: false"
+                                - generic [ref=e1023]: "}"
+                                - generic [ref=e1024]: );
+                                - generic [ref=e1025]: </script>
+                                - generic [ref=e1026]: <!-- Marquiz script end -->
+                                - generic [ref=e1027]: <!-- Marquiz script start -->
+                                - generic [ref=e1028]: <script>
+                                - generic [ref=e1029]: "(function(w, d, s, o){"
+                                - generic [ref=e1030]: "var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {"
+                                - generic [ref=e1031]: if (document.readyState !== 'loading') Marquiz.init(o);
+                                - generic [ref=e1032]: "else document.addEventListener(\"DOMContentLoaded\", function() {"
+                                - generic [ref=e1033]: Marquiz.init(o);
+                                - generic [ref=e1034]: "});"
+                                - generic [ref=e1035]: "};"
+                                - generic [ref=e1036]: d.head.insertBefore(j, d.head.firstElementChild);
+                                - generic [ref=e1037]: "})(window, document, 'script', {"
+                                - generic [ref=e1038]: "host: '//quiz.marquiz.ru',"
+                                - generic [ref=e1039]: "region: 'eu',"
+                                - generic [ref=e1040]: "id: '65e8431d273ca6002606de14',"
+                                - generic [ref=e1041]: "autoOpen: false,"
+                                - generic [ref=e1042]: "autoOpenFreq: 'once',"
+                                - generic [ref=e1043]: "openOnExit: false,"
+                                - generic [ref=e1044]: "disableOnMobile: false"
+                                - generic [ref=e1045]: "}"
+                                - generic [ref=e1046]: );
+                                - generic [ref=e1047]: </script>
+                                - generic [ref=e1048]: <!-- Marquiz script end -->
+                                - generic [ref=e1049]: <!-- Marquiz script start -->
+                                - generic [ref=e1050]: <script>
+                                - generic [ref=e1051]: "(function(w, d, s, o){"
+                                - generic [ref=e1052]: "var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {"
+                                - generic [ref=e1053]: if (document.readyState !== 'loading') Marquiz.init(o);
+                                - generic [ref=e1054]: "else document.addEventListener(\"DOMContentLoaded\", function() {"
+                                - generic [ref=e1055]: Marquiz.init(o);
+                                - generic [ref=e1056]: "});"
+                                - generic [ref=e1057]: "};"
+                                - generic [ref=e1058]: d.head.insertBefore(j, d.head.firstElementChild);
+                                - generic [ref=e1059]: "})(window, document, 'script', {"
+                                - generic [ref=e1060]: "host: '//quiz.marquiz.ru',"
+                                - generic [ref=e1061]: "region: 'eu',"
+                                - generic [ref=e1062]: "id: '65e1cf75337c0a00263ec8a1',"
+                                - generic [ref=e1063]: "autoOpen: false,"
+                                - generic [ref=e1064]: "autoOpenFreq: 'once',"
+                                - generic [ref=e1065]: "openOnExit: false,"
+                                - generic [ref=e1066]: "disableOnMobile: false"
+                                - generic [ref=e1067]: "}"
+                                - generic [ref=e1068]: );
+                                - generic [ref=e1069]: </script>
+                                - generic [ref=e1070]: <!-- Marquiz script end -->
+                                - generic [ref=e1071]: <!-- Marquiz script start -->
+                                - generic [ref=e1072]: <script>
+                                - generic [ref=e1073]: "(function(w, d, s, o){"
+                                - generic [ref=e1074]: "var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {"
+                                - generic [ref=e1075]: if (document.readyState !== 'loading') Marquiz.init(o);
+                                - generic [ref=e1076]: "else document.addEventListener(\"DOMContentLoaded\", function() {"
+                                - generic [ref=e1077]: Marquiz.init(o);
+                                - generic [ref=e1078]: "});"
+                                - generic [ref=e1079]: "};"
+                                - generic [ref=e1080]: d.head.insertBefore(j, d.head.firstElementChild);
+                                - generic [ref=e1081]: "})(window, document, 'script', {"
+                                - generic [ref=e1082]: "host: '//quiz.marquiz.ru',"
+                                - generic [ref=e1083]: "region: 'eu',"
+                                - generic [ref=e1084]: "id: '65e70a5218e0af00262e417f',"
+                                - generic [ref=e1085]: "autoOpen: false,"
+                                - generic [ref=e1086]: "autoOpenFreq: 'once',"
+                                - generic [ref=e1087]: "openOnExit: false,"
+                                - generic [ref=e1088]: "disableOnMobile: false"
+                                - generic [ref=e1089]: "}"
+                                - generic [ref=e1090]: );
+                                - generic [ref=e1091]: </script>
+                                - generic [ref=e1092]: <!-- Marquiz script end -->
+                                - generic [ref=e1093]: <!-- Marquiz script start -->
+                          - generic [ref=e1094]:
+                            - textbox "Быстрый переход на строку" [ref=e1096]: "1"
+                            - generic [ref=e1097]: строка:1символ:0
+                            - generic [ref=e1098]: Всего строк:430
+                            - link "подсветка синтаксиса" [ref=e1099] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                              - generic [ref=e1100]: подсветка синтаксиса
+                            - link "темный фон" [ref=e1102] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                              - generic [ref=e1104]: темный фон
+              - generic [ref=e1107]:
+                - generic "Открепить панель" [ref=e1108] [cursor=pointer]
+                - button "Сохранить" [ref=e1109] [cursor=pointer]
+                - button "Применить" [ref=e1110] [cursor=pointer]
+                - button "Отменить" [ref=e1111] [cursor=pointer]
+    - 'row "1С-Битрикс: Управление сайтом 25.750.0. © Битрикс, 2002-2025 Правообладатели | www.1c-bitrix.ru | Техподдержка" [ref=e1112]':
+      - cell [ref=e1113]
+      - 'cell "1С-Битрикс: Управление сайтом 25.750.0. © Битрикс, 2002-2025 Правообладатели | www.1c-bitrix.ru | Техподдержка" [ref=e1114]':
+        - table [ref=e1115]:
+          - rowgroup [ref=e1116]:
+            - 'row "1С-Битрикс: Управление сайтом 25.750.0. © Битрикс, 2002-2025 Правообладатели | www.1c-bitrix.ru | Техподдержка" [ref=e1117]':
+              - 'cell "1С-Битрикс: Управление сайтом 25.750.0. © Битрикс, 2002-2025" [ref=e1118]':
+                - 'link "1С-Битрикс: Управление сайтом 25.750.0" [ref=e1119] [cursor=pointer]':
+                  - /url: https://www.1c-bitrix.ru/
+                - text: . © Битрикс, 2002-2025
+              - cell "Правообладатели | www.1c-bitrix.ru | Техподдержка" [ref=e1120]:
+                - link "Правообладатели" [ref=e1121] [cursor=pointer]:
+                  - /url: /bitrix/admin/copyright.php
+                - text: "|"
+                - link "www.1c-bitrix.ru" [ref=e1122] [cursor=pointer]:
+                  - /url: https://www.1c-bitrix.ru/
+                - text: "|"
+                - link "Техподдержка" [ref=e1123] [cursor=pointer]:
+                  - /url: https://www.1c-bitrix.ru/support/
