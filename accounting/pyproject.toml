@@ -1,0 +1,13 @@
+[project]
+name = "arclinic-accounting"
+version = "0.1.0"
+description = "Модуль учета для Arclinic (бухгалтерия, зарплата, касса)"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1,<5.2",
+    "djangorestframework>=3.15,<3.16",
+    "django-filter>=24.3,<24.4",
+    "celery>=5.4,<5.5",
+    "psycopg[binary]>=3.2,<3.3",
+    "python-dotenv>=1.0,<1.1",
+]

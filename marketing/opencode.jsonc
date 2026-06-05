@@ -1,0 +1,27 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "free-claude-code/claude-sonnet-4-20250514",
+  "provider": {
+    "free-claude-code": {
+      "name": "Free Claude Code",
+      "id": "free-claude-code",
+      "npm": "@ai-sdk/anthropic",
+      "options": {
+        "baseURL": "http://localhost:8082/v1",
+        "apiKey": "freecc"
+      },
+      "models": {
+        "claude-sonnet-4-20250514": {
+          "id": "claude-sonnet-4-20250514",
+          "name": "Claude Sonnet 4 (via DeepSeek V4 Pro)",
+          "family": "claude-sonnet",
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "temperature": true,
+          "limit": { "context": 200000, "output": 64000 }
+        }
+      }
+    }
+  }
+}

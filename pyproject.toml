@@ -1,0 +1,44 @@
+[project]
+name = "arclinic"
+version = "0.1.0"
+description = "Система автоматизации клиники (модульный монолит)"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1,<5.2",
+    "djangorestframework>=3.15,<3.16",
+    "djangorestframework-simplejwt>=5.3,<5.4",
+    "django-cors-headers>=4.4,<4.5",
+    "django-filter>=24.3,<24.4",
+    "celery>=5.4,<5.5",
+    "redis>=5.1,<5.2",
+    "psycopg[binary]>=3.2,<3.3",
+    "python-dotenv>=1.0,<1.1",
+    "drf-spectacular>=0.27,<0.28",
+    "sentry-sdk>=2.13,<2.14",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3,<8.4",
+    "pytest-django>=4.8,<4.9",
+    "pytest-cov>=5.0,<5.1",
+    "ruff>=0.5,<0.6",
+    "ipdb>=0.13,<0.14",
+    "django-extensions>=3.2,<3.3",
+]
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings.dev"
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.backends._legacy:_Backend"
