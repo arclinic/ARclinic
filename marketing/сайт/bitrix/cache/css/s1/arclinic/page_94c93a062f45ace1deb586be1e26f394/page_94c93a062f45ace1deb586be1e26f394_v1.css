@@ -1,0 +1,367 @@
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/news/template1/bitrix/news.list/.default/style.css?17455624868447*/
+		@font-face {
+		  font-family: 'Acrom';
+		  src: url('/bitrix/templates/.default/components/bitrix/news/template1/bitrix/news.list/.default/fonts/Acrom--Bold.woff') format('woff');
+		  font-weight: 700;
+		  font-style: normal;
+		}
+		#mobile {
+		  display: none;
+		}
+		#desktop {
+		  display: flex;
+		}
+		
+		@media screen and (max-width: 768px) {
+		  #mobile {
+			display: flex;
+			flex-direction: column;
+		  }
+		  #desktop {
+			display: none;
+		  }
+		}
+		.promo-card-group.hidden {
+		  visibility: hidden;
+		  position: absolute;
+		  left: -9999px;
+		}
+
+      .promo-card-container1-mobile {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        width: 360px;
+        padding-right: 10px;
+        padding-bottom: 80px;
+        padding-left: 9px;
+      }
+      .promo-card-container3 {
+        flex: 0 0 auto;
+      }
+      .promo-title-mobile {
+        padding: 0;
+        margin: 0;
+        font: 700 27px Acrom;
+        color: black;
+      }
+      .promo-card-container2 {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 20px;
+      }
+      .promotion-card {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 10px;
+        background: white;
+		//transition: box-shadow 0.3s ease; /* ÐÐ»Ð°Ð²Ð½ÑÐ¹ Ð¿ÐµÑÐµÑÐ¾Ð´ Ð´Ð»Ñ ÑÐµÐ½Ð¸ */
+      }
+
+	 /* ÐÐ±ÑÐ¸Ð¹ ÑÑÐ¸Ð»Ñ Ð´Ð»Ñ ÑÐµÐ½Ð¸ Ð¿ÑÐ¸ Ð½Ð°Ð²ÐµÐ´ÐµÐ½Ð¸Ð¸ */
+.promotion-card:hover,
+.microtherapy-promo-container1:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+      .promo-card-container-mobile {
+        margin-top: 10px;
+      }
+      .promotion-card:first-child {
+        margin-top: 0px;
+      }
+      .promo-card-image {
+        box-sizing: border-box;
+        display: block;
+        flex: 0 0 auto;
+        align-self: stretch;
+        max-width: initial;
+        height: 260px;
+        border: none;
+        object-fit: cover;
+      }
+      .promo-card {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+        align-self: stretch;
+        justify-content: flex-start;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
+      .promo-details-heading {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 24px/27.5px "Open Sans", sans-serif;
+        color: #e10b13;
+        text-align: left;
+        white-space: pre-wrap;
+      }
+      .promo-details-text {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/18.5px "Open Sans", sans-serif;
+        color: #707070;
+        text-align: left;
+        white-space: pre-wrap;
+      }
+      .promo-description-style {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/18.5px "Open Sans", sans-serif;
+        color: black;
+        text-align: left;
+        white-space: pre-wrap;
+      }
+      .promo-load-button {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        padding: 7px;
+        margin-top: 50px;
+        background: #e10c14;
+        border-radius: 2px;
+      }
+
+
+
+      .promotional-offers-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-width: 1440px;
+      }
+      .promo-section {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        min-width: 1241px;
+        padding-bottom: 50px;
+      }
+      .promo-title {
+        flex: 0 0 auto;
+        padding: 0;
+        margin: 0;
+        font: 700 46px Acrom;
+        color: black;
+      }
+      .promo-card-container {
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        margin-top: -30px;
+      }
+      .promo-card-container1 {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: row;
+        gap: 20px;
+        align-items: stretch;
+        justify-content: space-between;
+        height: 446px;
+      }
+      .microtherapy-promo-container1 {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 400px;
+        padding: 10px;
+        background: white;
+      }
+      .promo-image-container {
+        box-sizing: border-box;
+        display: block;
+        flex: 0 0 auto;
+        align-self: stretch;
+        max-width: initial;
+        height: 260px;
+        border: none;
+        object-fit: cover;
+      }
+      .microtherapy-promo-container {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+        align-self: stretch;
+        justify-content: flex-start;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
+      .microtherapy-promo-heading {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 24px/27.5px "Open Sans", sans-serif;
+        color: #e10b13;
+        text-align: left;
+      }
+      .microtherapy-discount-info {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/18.5px "Open Sans", sans-serif;
+        color: #707070;
+        text-align: left;
+      }
+      .microtherapy-discount-message {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/18.5px "Open Sans", sans-serif;
+        color: black;
+        text-align: left;
+      }
+      /*.promo-card-group {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: row;
+        gap: 20px;
+        align-items: stretch;
+        justify-content: space-between;
+        height: 446px;
+        margin-top: 57px;
+      }*/
+		.promo-card-group {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 20px;
+		  align-items: flex-start;
+		  justify-content: flex-start; /* ÐÑÑÐ°Ð²Ð½Ð¸Ð²Ð°Ð½Ð¸Ðµ ÐºÐ°ÑÑÐ¾ÑÐµÐº Ð²Ð»ÐµÐ²Ð¾ */
+		  margin-top: 57px;
+		}
+      .promo-banner-container {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        padding: 7px;
+        margin-top: 60px;
+        background: #e10c14;
+        border-radius: 2px;
+      }
+      .load-more-button-text-style {
+        flex: 0 0 auto;
+        padding: 0;
+        margin: 0;
+        font: 400 14px "Open Sans", sans-serif;
+        color: white;
+        text-transform: uppercase;
+      }
+
+		   .button {
+        cursor: pointer;
+	}
+	@media screen and (max-width: 768px) {
+  .promo-card-container1-mobile {
+    width: 100%;
+    padding: 0 10px 80px 10px;
+  }
+
+  .promo-title-mobile {
+    font-size: 24px;
+  }
+
+  .promo-card-container2 {
+    margin-top: 20px;
+  }
+
+  .promotion-card {
+    padding: 10px;
+    gap: 16px;
+  }
+
+  .promo-card-image {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .promo-card {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .promo-details-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .promo-details-text,
+  .promo-description-style {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .promo-load-button {
+    margin-top: 40px;
+    padding: 10px;
+    width: 125px;
+    height:33px;
+margin:0;
+  }
+
+  .load-more-button-text-style {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #desktop {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #mobile {
+    display: none !important;
+  }
+}
+/* End */
+/* /bitrix/templates/.default/components/bitrix/news/template1/bitrix/news.list/.default/style.css?17455624868447 */

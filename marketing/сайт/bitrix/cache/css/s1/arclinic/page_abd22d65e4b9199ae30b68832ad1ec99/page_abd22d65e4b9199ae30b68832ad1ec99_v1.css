@@ -1,0 +1,417 @@
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/news/template1/bitrix/news.detail/actions_detail/style.css?174556269110380*/
+	@font-face {
+	  font-family: 'Acrom';
+	  src: url('/bitrix/templates/.default/components/bitrix/news/template1/bitrix/news.detail/actions_detail/fonts/Acrom--Bold.woff') format('woff');
+	  font-weight: 700;
+	  font-style: normal;
+	}
+
+ /* Ð£Ð½Ð¸Ð²ÐµÑÑÐ°Ð»ÑÐ½ÑÐ¹ ÑÐ±ÑÐ¾Ñ Ð¾ÑÑÑÑÐ¿Ð¾Ð² Ð¸ box-sizing */
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Ð¡ÐºÑÑÐ²Ð°ÐµÐ¼ Ð¼Ð¾Ð±Ð¸Ð»Ñ Ð½Ð° Ð´ÐµÑÐºÑÐ¾Ð¿Ðµ Ð¸ Ð½Ð°Ð¾Ð±Ð¾ÑÐ¾Ñ */
+  #mobile {
+    display: none;
+  }
+
+  #desktop {
+    display: block;
+  }
+
+  @media (max-width: 767px) {
+    #mobile {
+      display: block !important;
+      width: 100%;
+      background: #fbf9f9;
+    }
+
+    #desktop {
+      display: none !important;
+    }
+
+
+    .promo-card-container1-mobile {
+      width: 100%;
+      padding: 0 10px 80px;
+    }
+
+    .microtherapy-promo-container-mobile,
+    .promotional-offer-container,
+    .promo-card-container-mobile {
+      width: 100%;
+    }
+
+    .microtherapy-promo-banner {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+.promo-text {
+    display: block !important;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+  }
+  }
+
+  /* Ð§ÑÐ¾Ð±Ñ Ð´ÐµÑÐºÑÐ¾Ð¿ ÑÐ¾Ð¶Ðµ Ð±ÑÐ» Ð°Ð´Ð°Ð¿ÑÐ¸Ð²Ð½ÑÐ¹ */
+  #desktop {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #fbf9f9;
+  }
+
+		.promo-card-container1-mobile {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        width: 360px;
+        padding-right: 10px;
+        padding-bottom: 80px;
+        padding-left: 9px;
+		margin-top: 80px;
+      }
+      .promotional-offer-section-mobile {
+        flex: 0 0 auto;
+      }
+      .promo-title-mobile {
+        padding: 0;
+        margin: 0;
+        font: 700 27px Acrom;
+        color: black;
+      }
+      .microtherapy-promo-section1-mobile {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 20px;
+      }
+      .microtherapy-promo-container-mobile {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 20px;
+        background: white;
+      }
+      .microtherapy-promo-section-mobile {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        align-self: stretch;
+        justify-content: flex-start;
+      }
+      .microtherapy-promo-heading-mobile {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 700 27px Acrom;
+        color: black;
+        text-align: left;
+      }
+      .promotional-offer-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 20px;
+        margin-top: 10px;
+        background: white;
+      }
+      .promo-text-container {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/22px "Open Sans", sans-serif;
+        color: black;
+        text-align: left;
+      }
+      .promo-text-styling {
+        font: 400 16px/22px "Open Sans", sans-serif;
+        text-align: left;
+      }
+      .microtherapy-description-style-mobile {
+        font: 400 16px/22px "Open Sans", sans-serif;
+        color: #e10c14;
+        text-align: left;
+      }
+      .promotional-offers-container {
+        flex: 0 0 auto;
+        margin-top: 40px;
+      }
+      .main-heading-text-style {
+        padding: 0;
+        margin: 0;
+        font: 400 24px/27.5px "Open Sans", sans-serif;
+        color: black;
+      }
+      .promo-card-container-mobile {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 10px;
+        background: white;
+      }
+      .discount-promotion-section {
+        margin-top: 10px;
+      }
+      .promo-card-container-mobile:first-child {
+        margin-top: 0px;
+      }
+      .promo-card {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+        align-self: stretch;
+        justify-content: flex-start;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+		transition: box-shadow 0.3s ease; /* ÐÐ»Ð°Ð²Ð½ÑÐ¹ Ð¿ÐµÑÐµÑÐ¾Ð´ Ð´Ð»Ñ ÑÐµÐ½Ð¸ */
+      }
+	  .promo-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ð­ÑÑÐµÐºÑ ÑÐµÐ½Ð¸ Ð¿ÑÐ¸ Ð½Ð°Ð²ÐµÐ´ÐµÐ½Ð¸Ð¸ */
+	}
+      .discount-therapy-title-style {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 24px/27.5px "Open Sans", sans-serif;
+        color: #e10b13;
+        text-align: left;
+        white-space: pre-wrap;
+      }
+      .promo-details-text {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/18.5px "Open Sans", sans-serif;
+        color: #707070;
+        text-align: left;
+        white-space: pre-wrap;
+      }
+      .promo-message-style {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/18.5px "Open Sans", sans-serif;
+        color: black;
+        text-align: left;
+        white-space: pre-wrap;
+      }
+
+
+
+      .promo-section1 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-width: 1440px;
+		margin-top: 100px; 
+
+      }
+      .microtherapy-promo-section {
+        box-sizing: border-box;
+        width: 1241px;
+        padding-bottom: 50px;
+      }
+      .promotional-offer-section {
+        box-sizing: border-box;
+        width: 100%;
+      }
+      .microtherapy-promo-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 20px;
+        background: white;
+      }
+      .microtherapy-promo-section1 {
+        box-sizing: border-box;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 10%
+      }
+      .promo-heading {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 700 46px Acrom;
+        color: black;
+        text-align: left;
+      }
+      .microtherapy-discount-info {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/18.5px "Open Sans", sans-serif;
+        color: #707070;
+        text-align: left;
+      }
+      .microtherapy-promo-img {
+        box-sizing: border-box;
+        display: block;
+        flex: 1 1 auto;
+        max-width: initial;
+        height: 260px;
+        border: none;
+        object-fit: cover;
+      }
+      .promo-section {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        background: white;
+      }
+      .treatment-promo-text {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/22px "Open Sans", sans-serif;
+        color: black;
+        text-align: left;
+      }
+      .promo-text-styles {
+        font: 400 16px/22px "Open Sans", sans-serif;
+        text-align: left;
+      }
+      .microtherapy-description-style {
+        font: 400 16px/22px "Open Sans", sans-serif;
+        color: #e10c14;
+        text-align: left;
+      }
+      .promo-card-container {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 60px;
+      }
+      .promo-title {
+        padding: 0;
+        margin: 0;
+        font: 400 24px/27.5px "Open Sans", sans-serif;
+        color: black;
+      }
+      .promo-card-container1 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+        /*height: 446px;*/
+        margin-top: 20px;
+		flex-wrap: wrap;
+      }
+
+      .microtherapy-promo-section3 {
+        box-sizing: border-box;
+        display: flex;
+ 		/*width: calc(33.333% - 13.333px); 3 Ð² ÑÑÐ´ Ñ Ð¾ÑÑÑÑÐ¿Ð°Ð¼Ð¸ */
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 400px;
+        padding: 10px;
+        background: white;
+      }
+      .microtherapy-promo-banner {
+        box-sizing: border-box;
+        display: block;
+        flex: 0 0 auto;
+        align-self: stretch;
+        max-width: initial;
+        height: 260px;
+        border: none;
+        object-fit: cover;
+      }
+      .microtherapy-promo-section2 {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+        align-self: stretch;
+        justify-content: flex-start;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
+      .microtherapy-promo-heading {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 24px/27.5px "Open Sans", sans-serif;
+        color: #e10b13;
+        text-align: left;
+      }
+      .promo-text {
+        flex: 0 0 auto;
+        align-self: stretch;
+        padding: 0;
+        margin: 0;
+        font: 400 16px/18.5px "Open Sans", sans-serif;
+        color: black;
+        text-align: left;
+      }
+      .button {
+        cursor: pointer;
+}
+
+.promo-card-container-mobile:hover,
+.microtherapy-promo-section3:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+/* End */
+/* /bitrix/templates/.default/components/bitrix/news/template1/bitrix/news.detail/actions_detail/style.css?174556269110380 */
