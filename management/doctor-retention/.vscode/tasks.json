@@ -1,0 +1,80 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Полный отчёт (monthly)",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"${workspaceFolder}/../../.claude/skills/management/scripts/doctor_retention.py",
+				"monthly",
+				"--output-dir",
+				"${workspaceFolder}/reports"
+			],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated"
+			}
+		},
+		{
+			"label": "Быстрая проверка (weekly)",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"${workspaceFolder}/../../.claude/skills/management/scripts/doctor_retention.py",
+				"weekly",
+				"--output-dir",
+				"${workspaceFolder}/reports"
+			],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "silent",
+				"panel": "dedicated"
+			}
+		},
+		{
+			"label": "Отчёт на дату",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"${workspaceFolder}/../../.claude/skills/management/scripts/doctor_retention.py",
+				"monthly",
+				"--output-dir",
+				"${workspaceFolder}/reports",
+				"--date",
+				"${input:reportDate}"
+			],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated"
+			}
+		},
+		{
+			"label": "Сброс кеша и перезапрос API",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"${workspaceFolder}/../../.claude/skills/management/scripts/doctor_retention.py",
+				"monthly",
+				"--output-dir",
+				"${workspaceFolder}/reports",
+				"--force-refresh"
+			],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated"
+			}
+		}
+	],
+	"inputs": [
+		{
+			"id": "reportDate",
+			"type": "promptString",
+			"description": "Дата отчёта (YYYY-MM-DD)",
+			"default": ""
+		}
+	]
+}
