@@ -115,13 +115,25 @@ class DoctorRetentionAgent:
             self._load_cache()
             if not silent:
                 print(f"[cache] Загружено {len(self.deals)} сделок из кеша ({self.cache_path})")
-        else:
-            if not silent:
-                print("[api] Запрашиваю сделки из Bitrix24...")
+            self._build_visits()
+            return
+
+        if not silent:
+            print("[api] Запрашиваю сделки из Bitrix24...")
+        try:
             self.deals = self._fetch_all_deals()
             if not silent:
                 print(f"[api] Получено {len(self.deals)} сделок")
             self._save_cache()
+        except Exception as e:
+            print(f"[api] Ошибка при запросе к Bitrix24: {e}")
+            # Пробуем загрузить кеш, даже если он устарел
+            if os.path.exists(self.cache_path):
+                print("[api] Использую устаревший кеш как fallback.")
+                self._load_cache()
+            else:
+                print("[api] Кеш отсутствует, данных нет.")
+                self.deals = []
         self._build_visits()
 
     def _cache_valid(self) -> bool:
@@ -153,17 +165,23 @@ class DoctorRetentionAgent:
         all_deals: list[dict] = []
         start = 0
         while True:
-            result = call("crm.deal.list", {
-                "filter": {
-                    "STAGE_ID": "C1:WON",
-                    ">=DATE_CREATE": DATA_START.isoformat(),
-                },
-                "select": [
-                    "ID", "CONTACT_ID", "DATE_CREATE", "STAGE_ID",
-                    "UF_CRM_1738231898", "UF_CRM_1738232000",
-                ],
-                "start": start,
-            })
+            try:
+                result = call("crm.deal.list", {
+                    "filter": {
+                        "STAGE_ID": "C1:WON",
+                        ">=DATE_CREATE": DATA_START.isoformat(),
+                    },
+                    "select": [
+                        "ID", "CONTACT_ID", "DATE_CREATE", "STAGE_ID",
+                        "UF_CRM_1738231898", "UF_CRM_1738232000",
+                    ],
+                    "start": start,
+                }, retries=1)
+            except Exception as e:
+                # Если уже собрали часть данных — возвращаем что есть
+                if all_deals:
+                    print(f"[api] Частичный сбор: {len(all_deals)} сделок (прервано: {e})")
+                raise
             batch = result.get("result", [])
             if not batch:
                 break
@@ -700,7 +718,7 @@ class DoctorRetentionAgent:
         if alerts:
             alerts.sort(key=lambda x: x[1])  # sort by rate ascending
             for name, rate, count, dev in alerts:
-                lines.append(f"- ⚠ **{name}**: {format_rate(rate)} при среднем {format_rate(avg_a_3)} "
+                lines.append(f"- [!] **{name}**: {format_rate(rate)} при среднем {format_rate(avg_a_3)} "
                              f"(отклонение {dev:+.1f}%, {count} первичных)")
         else:
             lines.append("Все врачи на уровне или выше среднего.")
@@ -759,7 +777,7 @@ class DoctorRetentionAgent:
                 name = DOCTOR_MAP.get(doctor_id, str(doctor_id))
                 deviation = (rate - avg_a) * 100
                 alerts.append(
-                    f"⚠ Врач {name}: возвращаемость {format_rate(rate)} "
+                    f"[!] Врач {name}: возвращаемость {format_rate(rate)} "
                     f"при среднем по клинике {format_rate(avg_a)}. "
                     f"Отклонение {deviation:+.1f}%."
                 )
@@ -804,7 +822,7 @@ class DoctorRetentionAgent:
         alert = self.weekly_check()
         if alert:
             print(alert)
-            return alert.count("⚠")
+            return alert.count("[!]")
         return 0
 
 
