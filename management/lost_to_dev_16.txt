@@ -1,0 +1,17 @@
+N  | Пациент                                    | Сделок июнь | Новых в июне | Посл. до июня | Карточка
+----------------------------------------------------------------------------------------------------------------------------------
+ 1 | Анна Глухарева                               |          2 |          2 |   20.05.2025 | https://arclinic.bitrix24.ru/crm/contact/details/19053/
+ 2 | Ирина Кудакова                               |          3 |          3 |   31.03.2025 | https://arclinic.bitrix24.ru/crm/contact/details/19245/
+ 3 | Алеся Матузок                                |          1 |          1 |   13.05.2025 | https://arclinic.bitrix24.ru/crm/contact/details/14191/
+ 4 | Светлана Марек                               |          5 |          5 |   27.03.2025 | https://arclinic.bitrix24.ru/crm/contact/details/10529/
+ 5 | Наталья Ординарцева                          |          4 |          4 |   08.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/21337/
+ 6 | Анна Седова                                  |          1 |          1 |   26.02.2025 | https://arclinic.bitrix24.ru/crm/contact/details/14395/
+ 7 | Константин Савкин                            |          1 |          1 |   23.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/18897/
+ 8 | Павел Кузнецов                               |          1 |          1 |   29.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/19779/
+ 9 | Юлия Жукова  (Агуреева)                      |          2 |          2 |   08.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/17029/
+10 | Ирина Черемушкина                            |          3 |          3 |   04.10.2023 | https://arclinic.bitrix24.ru/crm/contact/details/14159/
+11 | Ксения Сухарева                              |          2 |          2 |   27.05.2025 | https://arclinic.bitrix24.ru/crm/contact/details/18435/
+12 | Наталья Ветошкина                            |          1 |          1 |   27.05.2025 | https://arclinic.bitrix24.ru/crm/contact/details/21887/
+13 | Виктория Василенко                           |          1 |          1 |   27.01.2024 | https://arclinic.bitrix24.ru/crm/contact/details/18267/
+
+Всего: 13 пациентов

@@ -1,0 +1,23 @@
+N  | Пациент                                    | Сделок июнь | Новых в июне | Посл. до июня | Карточка
+----------------------------------------------------------------------------------------------------------------------------------
+ 1 | Наталья Ординарцева                          |          4 |          4 |   08.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/21337/
+ 2 | Анна Чернигова                               |          3 |          3 |   05.03.2025 | https://arclinic.bitrix24.ru/crm/contact/details/21181/
+ 3 | Ирина Кудакова                               |          3 |          3 |   31.03.2025 | https://arclinic.bitrix24.ru/crm/contact/details/19245/
+ 4 | Ирина Черемушкина                            |          3 |          3 |   04.10.2023 | https://arclinic.bitrix24.ru/crm/contact/details/14159/
+ 5 | Анна Глухарева                               |          2 |          2 |   20.05.2025 | https://arclinic.bitrix24.ru/crm/contact/details/19053/
+ 6 | Юлия Жукова  (Агуреева)                      |          2 |          2 |   08.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/17029/
+ 7 | Ксения Сухарева                              |          2 |          2 |   27.05.2025 | https://arclinic.bitrix24.ru/crm/contact/details/18435/
+ 8 | Наталья Антонова                             |          1 |          1 |   09.09.2024 | https://arclinic.bitrix24.ru/crm/contact/details/19533/
+ 9 | Наталья Соболева                             |          1 |          1 |   08.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/16761/
+10 | Светлана Паршина                             |          1 |          1 |   05.03.2025 | https://arclinic.bitrix24.ru/crm/contact/details/9585/
+11 | Александра Сумкина                           |          1 |          1 |   26.02.2025 | https://arclinic.bitrix24.ru/crm/contact/details/22139/
+12 | Анна Осадчая                                 |          1 |          1 |   07.07.2024 | https://arclinic.bitrix24.ru/crm/contact/details/15265/
+13 | Алеся Матузок                                |          1 |          1 |   13.05.2025 | https://arclinic.bitrix24.ru/crm/contact/details/14191/
+14 | Виктория Памшева                             |          1 |          1 |   08.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/24243/
+15 | Анна Седова                                  |          1 |          1 |   26.02.2025 | https://arclinic.bitrix24.ru/crm/contact/details/14395/
+16 | Константин Савкин                            |          1 |          1 |   23.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/18897/
+17 | Павел Кузнецов                               |          1 |          1 |   29.04.2025 | https://arclinic.bitrix24.ru/crm/contact/details/19779/
+18 | Наталья Ветошкина                            |          1 |          1 |   27.05.2025 | https://arclinic.bitrix24.ru/crm/contact/details/21887/
+19 | Виктория Василенко                           |          1 |          1 |   27.01.2024 | https://arclinic.bitrix24.ru/crm/contact/details/18267/
+
+Всего: 19 пациентов

@@ -1,0 +1,85 @@
+  N | Пациент                                    | Сд | Сегмент | Первый визит | Карточка
+------------------------------------------------------------------------------------------------------------------------
+  1 | Ануш Сафарян                               |   4 | Разв.   |   03.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/19431/
+  2 | Наталья Суханова                           |   4 | Разв.   |   06.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27745/
+  3 | Ольга Хулапова                             |   4 | Разв.   |   11.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27785/
+  4 | Наталья Бессонова                          |   3 | Разв.   |   10.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27771/
+  5 | Екатерина Беляева                          |   3 | Разв.   |   11.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27791/
+  6 | Арзу Балашова                              |   3 | Разв.   |   11.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27787/
+  7 | Валентина Полубок                          |   3 | Разв.   |   02.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27717/
+  8 | Екатерина Герасименко                      |   2 | Разв.   |   22.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27871/
+  9 | Савельева Екатерина Сергеевна              |   2 | Разв.   |   20.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27863/
+ 10 | Алиса Насонова                             |   2 | Разв.   |   18.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/16489/
+ 11 | Екатерина Лыченкова                        |   2 | Разв.   |   18.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27849/
+ 12 | Наталия Иванова                            |   2 | Разв.   |   16.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27835/
+ 13 | Ольга Савчук                               |   2 | Разв.   |   16.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27831/
+ 14 | Фокина Татьяна Ивановна                    |   2 | Разв.   |   16.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/6875/
+ 15 | Анастасия Боровикова                       |   2 | Разв.   |   16.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27827/
+ 16 | Алёна Солодовникова                        |   2 | Разв.   |   15.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27823/
+ 17 | Ирина Дресвянина                           |   2 | Разв.   |   15.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27819/
+ 18 | Татьяна Хасянова                           |   2 | Разв.   |   15.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27815/
+ 19 | София Михайлова                            |   2 | Разв.   |   13.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27807/
+ 20 | Элина Курмакаева                           |   2 | Разв.   |   12.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27799/
+ 21 | Евгения Кудымова                           |   2 | Разв.   |   09.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27767/
+ 22 | Василиса Попова                            |   2 | Разв.   |   11.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27783/
+ 23 | Юлия Вишневская                            |   2 | Разв.   |   05.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27731/
+ 24 | Михаил Залесский                           |   2 | Разв.   |   08.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27757/
+ 25 | Анжелика Ахунова                           |   2 | Разв.   |   08.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27753/
+ 26 | Ева Цибульская                             |   2 | Разв.   |   06.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27751/
+ 27 | Арина Макарова                             |   2 | Разв.   |   05.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27735/
+ 28 | Натали Новак                               |   2 | Разв.   |   03.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27721/
+ 29 | Диана Кульчаева                            |   2 | Разв.   |   01.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27711/
+ 30 | Светлана Скиба                             |   1 | Разв.   |   23.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/19939/
+ 31 | Ольга Турчак                               |   1 | Разв.   |   23.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27877/
+ 32 | Константин Арановский                      |   1 | Разв.   |   23.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27873/
+ 33 | Яна Зиятдинова                             |   1 | Разв.   |   22.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27869/
+ 34 | Виктория Райнхард                          |   1 | Разв.   |   22.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27867/
+ 35 | Игорь Давлетшин                            |   1 | Разв.   |   22.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27865/
+ 36 | Валерия Воронова                           |   1 | Разв.   |   22.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27645/
+ 37 | Анастасия Богатырева                       |   1 | Разв.   |   20.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27861/
+ 38 | Юлия Тареева                               |   1 | Разв.   |   20.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27859/
+ 39 | Татьяна Колькольцева                       |   1 | Разв.   |   19.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27855/
+ 40 | Оксана Моисеева                            |   1 | Разв.   |   19.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27777/
+ 41 | Марина Нефедова                            |   1 | Разв.   |   18.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27851/
+ 42 | Анна Усманова                              |   1 | Разв.   |   18.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27833/
+ 43 | Юрий Бутусов                               |   1 | Разв.   |   17.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27847/
+ 44 | Наталья Барулина                           |   1 | Разв.   |   17.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27845/
+ 45 | Ольга Виноградова                          |   1 | Разв.   |   17.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27841/
+ 46 | Елена Сазонова                             |   1 | Разв.   |   16.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27837/
+ 47 | Серена Цветкова                            |   1 | Разв.   |   16.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/19851/
+ 48 | ID:9993                                    |   1 | Разв.   |   15.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/9993/
+ 49 | Мария Пономарева                           |   1 | Разв.   |   15.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27821/
+ 50 | Олеся Тимофеева                            |   1 | Разв.   |   14.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27809/
+ 51 | Ольга Джураева                             |   1 | Разв.   |   13.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27805/
+ 52 | Дарья Хроколова                            |   1 | Разв.   |   12.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27795/
+ 53 | Моисеева Оксана Игоревна                   |   1 | Разв.   |   13.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27775/
+ 54 | Олеся Сердюк                               |   1 | Разв.   |   13.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27803/
+ 55 | Светлана Чайка                             |   1 | Разв.   |   12.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27801/
+ 56 | Ксения Макарчук                            |   1 | Разв.   |   12.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27797/
+ 57 | Ирина Ковальчук                            |   1 | Разв.   |   12.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27793/
+ 58 | Алексей Калинин                            |   1 | Разв.   |   11.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/13639/
+ 59 | Воронова Валерия Андреевна                 |   1 | Разв.   |   10.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27643/
+ 60 | Татьяна Удалова                            |   1 | Разв.   |   09.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27769/
+ 61 | Вычурова Юлия Владимировна                 |   1 | Разв.   |   09.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27737/
+ 62 | Ксения Ракитина                            |   1 | Разв.   |   09.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27765/
+ 63 | Оксана Дегтярёва                           |   1 | Разв.   |   09.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27763/
+ 64 | Зухра Джукаева                             |   1 | Разв.   |   09.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27761/
+ 65 | Оксана Урусбамбетова                       |   1 | Разв.   |   08.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27759/
+ 66 | Галина Колесова                            |   1 | Разв.   |   08.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27755/
+ 67 | Надия Шумаева                              |   1 | Разв.   |   06.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27749/
+ 68 | Алексей Литвинов                           |   1 | Разв.   |   06.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27743/
+ 69 | Сергей Чаплянко                            |   1 | Разв.   |   05.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27741/
+ 70 | Ольга Акентьева                            |   1 | Разв.   |   05.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27739/
+ 71 | Анастасия Казанцева                        |   1 | Разв.   |   02.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27719/
+ 72 | Юлия Мартыновская                          |   1 | Разв.   |   05.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27733/
+ 73 | Юлия Корнева                               |   1 | Разв.   |   04.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27725/
+ 74 | Ольга Богданович                           |   1 | Разв.   |   01.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27699/
+ 75 | Светлана Зиновьева                         |   1 | Разв.   |   02.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27715/
+ 76 | Марина Солпокова                           |   1 | Разв.   |   01.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27713/
+ 77 | Станислава Голубева                        |   1 | Разв.   |   01.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27709/
+ 78 | Темирлан Темирсултанов                     |   1 | Разв.   |   01.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27707/
+ 79 | Тест Тестов                                |   1 | Разв.   |   01.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27705/
+ 80 | Тимофей Сивков                             |   1 | Разв.   |   01.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27703/
+ 81 | Руслан Плотников                           |   1 | Разв.   |   01.06.2026 | https://arclinic.bitrix24.ru/crm/contact/details/27701/
+
+Всего: 81 новых клиентов
