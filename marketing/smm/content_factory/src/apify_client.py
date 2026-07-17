@@ -2,20 +2,11 @@ import os
 import requests
 import time
 from typing import List, Dict
+from dotenv import load_dotenv
 
-# Список всех ключей Apify от Анны
-APIFY_KEYS = [
-    'apify_api_s7CtRGUlvVHXbK3Q3vPjWSy6ZfDNe80VKnU0',
-    'apify_api_RCSzFDBq9g7xBybrp43kpTacfdxJBE16Vj7o',
-    'apify_api_AWssTaFMkGmwBO9WTWYj8LFcV4kDp10qMqlm',
-    'apify_api_YDMvgxM4N6QWLkEAcj70o5VbWrPHdr2SOPl5',
-    'apify_api_VG6GhQS7MK1mzjHdmcTv9WNFCpXqhu2k9PCb',
-    'apify_api_afvrpS0yBWmMbBwCYJDeK8a81TNPIZ17dfph',
-    'apify_api_xmQdR5xnNeGdL48g6uP8zQNCTwkqsk1GwAZR',
-    'apify_api_ye5COeWsK211Da9WhTybTyE3HX3KWl4lcnX8',
-    'apify_api_weZbCAT9CAcxAIcZ6RbasUsu3UaAfS1vG7OV',
-    'apify_api_PmB4lpUbEehONkeq7fBXQWzBOcERtr2WvWBR'
-]
+load_dotenv()
+
+APIFY_KEYS = [k.strip() for k in os.getenv("APIFY_KEYS", "").split(",") if k.strip()]
 
 ACTORS = {
     'x': 'curious_coder/twitter-scraper',
