@@ -1,0 +1,51 @@
+{
+  "milano": {
+    "name": "MILANO",
+    "city": "Санкт-Петербург",
+    "instagram": "milano_nevsky",
+    "tiktok": null,
+    "notes": "Конкурент №1 по ценностям, 3 филиала, 25 000 пациентов"
+  },
+  "luaclinic": {
+    "name": "Luaclinic",
+    "city": "Санкт-Петербург",
+    "instagram": "lua.clinic",
+    "tiktok": null,
+    "notes": "Лидер рейтинга 9.82/10, доказательный подход"
+  },
+  "codeofbeauty": {
+    "name": "Code of Beauty",
+    "city": "Санкт-Петербург",
+    "instagram": null,
+    "tiktok": null,
+    "notes": "Приватный аккаунт — не парсится"
+  },
+  "dega": {
+    "name": "DEGA",
+    "city": "Санкт-Петербург",
+    "instagram": "dega_clinic",
+    "tiktok": null,
+    "notes": "30+ врачей, 905+ отзывов, массовая"
+  },
+  "gmtclinic": {
+    "name": "GMTClinic",
+    "city": "Санкт-Петербург",
+    "instagram": "gmtclinic",
+    "tiktok": null,
+    "notes": "Anti-age, системная медицина, генетика, пластика"
+  },
+  "nkclinic": {
+    "name": "NK-Clinic",
+    "city": "Санкт-Петербург",
+    "instagram": "nkclinic",
+    "tiktok": null,
+    "notes": "3 клиники, 50 000+ клиентов, демпингует"
+  },
+  "estetika_tela": {
+    "name": "Эстетика тела",
+    "city": "Санкт-Петербург",
+    "instagram": "bodyestetic.spb",
+    "tiktok": null,
+    "notes": "Сильна в аппаратах, INMODE, Morpheus-8"
+  }
+}
