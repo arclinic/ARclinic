@@ -2,7 +2,10 @@ import os
 import json
 import time
 import requests
+import xml.etree.ElementTree as ET
+import re
 from typing import List, Dict, Optional
+from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"))
@@ -251,66 +254,130 @@ class YouTubeScraper:
 
 
 class TelegramScraper:
-    """
-    Парсер Telegram через публичные данные.
-    Для каналов используем tgstat.ru или telemetr.me через парсинг HTML.
-    Для приватных каналов/чатов нужен Telethon с сессией.
-    """
-
     def __init__(self):
-        pass
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "application/json, text/plain, */*",
+        })
+
+    def _try_bridge(self, channel: str, max_posts: int) -> List[Dict]:
+        bridges = [
+            {
+                "name": "tg.i-c-a.su",
+                "url": f"https://tg.i-c-a.su/json/{channel}?limit={max_posts}",
+                "parser": self._parse_icasu_json,
+            },
+            {
+                "name": "rsshub.app",
+                "url": f"https://rsshub.app/telegram/channel/{channel}?limit={max_posts}",
+                "parser": self._parse_rsshub_atom,
+            },
+        ]
+
+        for bridge in bridges:
+            try:
+                resp = self.session.get(bridge["url"], timeout=20)
+                if resp.status_code == 200:
+                    posts = bridge["parser"](resp, channel, max_posts)
+                    if posts:
+                        print(f"  [TG] {bridge['name']}: got {len(posts)} posts for @{channel}")
+                        return posts
+            except Exception:
+                continue
+
+        return []
+
+    def _parse_icasu_json(self, resp, channel: str, max_posts: int) -> List[Dict]:
+        try:
+            data = resp.json()
+            messages = data.get("messages", [])
+            posts = []
+            for msg in messages[:max_posts]:
+                msg_id = msg.get("id", "")
+                posts.append({
+                    "platform": "telegram",
+                    "username": channel,
+                    "post_id": str(msg_id),
+                    "url": f"https://t.me/{channel}/{msg_id}",
+                    "caption": (msg.get("message", "") or "")[:500],
+                    "timestamp": msg.get("date", ""),
+                    "type": "Post",
+                    "views": int(msg.get("views", 0) or 0),
+                    "reactions": 0,
+                    "comments": 0,
+                    "forwards": int(msg.get("forwards", 0) or 0),
+                    "has_media": bool(msg.get("photo")),
+                })
+            return posts
+        except Exception:
+            return []
+
+    def _parse_rsshub_atom(self, resp, channel: str, max_posts: int) -> List[Dict]:
+        try:
+            content = resp.text
+            if "<feed" not in content and "<rss" not in content:
+                try:
+                    data = resp.json()
+                    items = data.get("items", data.get("data", {}).get("items", []))
+                    posts = []
+                    for item in items[:max_posts]:
+                        posts.append({
+                            "platform": "telegram",
+                            "username": channel,
+                            "post_id": item.get("link", "").split("/")[-1] if item.get("link") else "",
+                            "url": item.get("link", ""),
+                            "caption": (item.get("title", "") or "")[:500],
+                            "timestamp": item.get("pubDate", item.get("date", "")),
+                            "type": "Post",
+                            "views": 0,
+                            "reactions": 0,
+                            "comments": 0,
+                            "forwards": 0,
+                        })
+                    return posts
+                except Exception:
+                    return []
+
+            root = ET.fromstring(content)
+            ns = {"atom": "http://www.w3.org/2005/Atom", "rss": ""}
+            entries = root.findall(".//item") or root.findall(".//atom:entry", ns) or root.findall(".//entry")
+
+            posts = []
+            for entry in entries[:max_posts]:
+                link = entry.findtext("link", "")
+                if not link:
+                    link_el = entry.find("link")
+                    if link_el is not None:
+                        link = link_el.get("href", "")
+
+                title = entry.findtext("title", "")
+                pub_date = entry.findtext("pubDate", "") or entry.findtext("published", "") or entry.findtext("updated", "")
+
+                posts.append({
+                    "platform": "telegram",
+                    "username": channel,
+                    "post_id": link.split("/")[-1] if link else "",
+                    "url": link or f"https://t.me/{channel}",
+                    "caption": (title or "")[:500],
+                    "timestamp": pub_date,
+                    "type": "Post",
+                    "views": 0,
+                    "reactions": 0,
+                    "comments": 0,
+                    "forwards": 0,
+                })
+            return posts
+        except Exception:
+            return []
 
     def fetch_channel_posts(self, channel_username: str, max_posts: int = 50) -> List[Dict]:
-        posts = []
-        print(f"  [TG] Запрос постов для @{channel_username} (через tgstat)")
+        channel = channel_username.lstrip("@")
+        print(f"  [TG] Fetching @{channel} (public bridges)")
 
-        try:
-            url = f"https://tgstat.ru/channel/@{channel_username}"
-            headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-            }
-            resp = requests.get(url, headers=headers, timeout=30)
+        posts = self._try_bridge(channel, max_posts)
 
-            if resp.status_code != 200:
-                print(f"  [TG] Не удалось получить данные: HTTP {resp.status_code}")
-                return posts
-
-            from html.parser import HTMLParser
-
-            class TGStatParser(HTMLParser):
-                def __init__(self):
-                    super().__init__()
-                    self.posts = []
-                    self.in_post = False
-                    self.in_views = False
-                    self.current = {}
-                    self.data_collect = ""
-
-                def handle_starttag(self, tag, attrs):
-                    attrs_dict = dict(attrs)
-                    cls = attrs_dict.get("class", "")
-                    if "post" in cls.lower() or "article" in cls.lower():
-                        self.in_post = True
-                        self.current = {}
-                    if self.in_post and "views" in cls.lower():
-                        self.in_views = True
-
-                def handle_endtag(self, tag):
-                    if self.in_post and tag in ("div", "article"):
-                        if self.current:
-                            self.posts.append(self.current)
-                        self.in_post = False
-
-                def handle_data(self, data):
-                    if self.in_views:
-                        self.current["views_raw"] = data.strip()
-
-            parser = TGStatParser()
-            parser.feed(resp.text)
-
-            print(f"  [TG] Найдено {len(posts)} постов в HTML (@{channel_username})")
-
-        except Exception as e:
-            print(f"  [TG] Ошибка парсинга @{channel_username}: {e}")
+        if not posts:
+            print(f"  [TG] No posts found for @{channel} via public bridges")
 
         return posts
