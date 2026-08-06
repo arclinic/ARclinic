@@ -83,12 +83,20 @@ def load_deals(force=False):
     return deals
 
 
-def segment(dates, window_start, snapshot):
-    """Определяет сегмент: primary / lost / dev / reg"""
+def segment(dates, window_start, snapshot, lost_snapshot=None):
+    """Определяет сегмент: primary / lost / dev / reg.
+    lost = 0 сделок в окне + от lost_snapshot прошло >365 дней с последнего визита."""
+    if lost_snapshot is None:
+        lost_snapshot = snapshot
     count = sum(1 for dt in dates if window_start < dt <= snapshot)
     if count == 0:
         has_history = any(dt <= window_start for dt in dates)
-        return "lost" if has_history else "primary"
+        if not has_history:
+            return "primary"
+        last_visit = max(dt for dt in dates if dt <= snapshot)
+        if last_visit < lost_snapshot - timedelta(days=365):
+            return "lost"
+        return "dev"
     elif count <= 5:
         return "dev"
     else:

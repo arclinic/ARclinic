@@ -27,26 +27,42 @@ month_prev_start = snap_prev.replace(day=1, hour=0, minute=0, second=0, microsec
 month_curr_start = snap_curr.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
 
 
-def segment(dates, month_start, snapshot):
-    """Сегмент по календарному месяцу: primary/lost/dev/reg
-    lost = 0 сделок в месяце + последний визит >365 дней назад.
-    Будущие визиты не учитываются."""
-    count = sum(1 for dt in dates if month_start <= dt <= snapshot)
-    if count > 0:
-        return "dev" if count <= 5 else "reg"
-    past = [dt for dt in dates if dt <= snapshot]
-    if not past:
-        return "primary"
-    last_visit = max(past)
-    if last_visit < month_start - timedelta(days=365):
-        return "lost"
-    return "dev"  # был недавно, просто пропустил месяц
 
 
 transition = defaultdict(lambda: defaultdict(int))
 for cid, dates in contact_dates.items():
-    seg_prev = segment(dates, month_prev_start, snap_prev)
-    seg_curr = segment(dates, month_curr_start, snap_curr)
+    dates_sorted = sorted(dates)
+    cnt_prev = sum(1 for d in dates_sorted if month_prev_start <= d <= snap_prev)
+    cnt_curr = sum(1 for d in dates_sorted if month_curr_start <= d <= snap_curr)
+
+    # Сегмент за предыдущий месяц
+    if cnt_prev > 0:
+        seg_prev = "dev" if cnt_prev <= 5 else "reg"
+    else:
+        past_prev = [d for d in dates_sorted if d < month_prev_start]
+        if not past_prev:
+            seg_prev = "primary"
+        else:
+            last_before = max(past_prev)
+            first_in_curr = min((d for d in dates_sorted if d >= month_curr_start), default=None)
+            if first_in_curr:
+                gap = (first_in_curr - last_before).days
+            else:
+                gap = (snap_curr - last_before).days
+            seg_prev = "lost" if gap > 365 else "dev"
+
+    # Сегмент за текущий месяц
+    if cnt_curr > 0:
+        seg_curr = "dev" if cnt_curr <= 5 else "reg"
+    else:
+        past_curr = [d for d in dates_sorted if d < month_curr_start]
+        if not past_curr:
+            seg_curr = "primary"
+        else:
+            last_before = max(past_curr)
+            gap = (snap_curr - last_before).days
+            seg_curr = "lost" if gap > 365 else "dev"
+
     transition[seg_prev][seg_curr] += 1
 
 primary_to_dev = transition["primary"]["dev"]
