@@ -28,15 +28,19 @@ month_curr_start = snap_curr.replace(day=1, hour=0, minute=0, second=0, microsec
 
 
 def segment(dates, month_start, snapshot):
-    """Сегмент по календарному месяцу: primary / lost / dev / reg"""
+    """Сегмент по календарному месяцу: primary/lost/dev/reg
+    lost = 0 сделок в месяце + последний визит >365 дней назад.
+    Будущие визиты не учитываются."""
     count = sum(1 for dt in dates if month_start <= dt <= snapshot)
-    if count == 0:
-        has_history = any(dt < month_start for dt in dates)
-        return "lost" if has_history else "primary"
-    elif count <= 5:
-        return "dev"
-    else:
-        return "reg"
+    if count > 0:
+        return "dev" if count <= 5 else "reg"
+    past = [dt for dt in dates if dt <= snapshot]
+    if not past:
+        return "primary"
+    last_visit = max(past)
+    if last_visit < month_start - timedelta(days=365):
+        return "lost"
+    return "dev"  # был недавно, просто пропустил месяц
 
 
 transition = defaultdict(lambda: defaultdict(int))
