@@ -1,31 +1,173 @@
-Реактивированные (lost -> dev) за июль 2026 | только C1:WON
- N | Пациент                                    | Сделок в июле | Ссылка
+Реактивированные (lost -> dev) за июль 2026 | C1:WON | календарный месяц
+  N | Пациент                                    | Сделок | Ссылка
 ----------------------------------------------------------------------------------------------------
- 1 | Абукарова Пчехан Идаятовна                 |              1 | https://arclinic.bitrix24.ru/crm/contact/details/21809/
- 2 | Бирюкова Дарья Владимировна                |              1 | https://arclinic.bitrix24.ru/crm/contact/details/8241/
- 3 | Борисова Светлана Сергеевна                |              1 | https://arclinic.bitrix24.ru/crm/contact/details/12299/
- 4 | Бурдза Екатерина Александровна             |              1 | https://arclinic.bitrix24.ru/crm/contact/details/23011/
- 5 | Дмитриева Юлия Олеговна                    |              1 | https://arclinic.bitrix24.ru/crm/contact/details/23289/
- 6 | Кисельчук Елена Николаевна                 |              1 | https://arclinic.bitrix24.ru/crm/contact/details/22501/
- 7 | Котова Наталья Андреевна                   |              1 | https://arclinic.bitrix24.ru/crm/contact/details/19079/
- 8 | Кузнецова Марина Владимировна              |              1 | https://arclinic.bitrix24.ru/crm/contact/details/18283/
- 9 | Лебедева Татьяна Алексеевна                |              1 | https://arclinic.bitrix24.ru/crm/contact/details/22987/
-10 | Лисина Елена Анатольевна                   |              2 | https://arclinic.bitrix24.ru/crm/contact/details/20117/
-11 | Любинская Анна Александровна               |              1 | https://arclinic.bitrix24.ru/crm/contact/details/9737/
-12 | Морковкина Наталья Сергеевна               |              1 | https://arclinic.bitrix24.ru/crm/contact/details/17895/
-13 | Мущук Елизавета Сергеевна                  |              1 | https://arclinic.bitrix24.ru/crm/contact/details/13557/
-14 | Паршина Светлана Борисовна                 |              1 | https://arclinic.bitrix24.ru/crm/contact/details/9585/
-15 | Подвязная Алиса Александровна              |              1 | https://arclinic.bitrix24.ru/crm/contact/details/20505/
-16 | Седова Анна Олеговна                       |              2 | https://arclinic.bitrix24.ru/crm/contact/details/14395/
-17 | Соболева Наталья Владимировна              |              2 | https://arclinic.bitrix24.ru/crm/contact/details/16761/
-18 | Соглаева Алевтина Александровна            |              1 | https://arclinic.bitrix24.ru/crm/contact/details/16987/
-19 | Сухарева Ксения Александровна              |              1 | https://arclinic.bitrix24.ru/crm/contact/details/18435/
-20 | Цветкова Наталья Валерьевна                |              1 | https://arclinic.bitrix24.ru/crm/contact/details/7141/
-21 | Цыганцева Наталья Николаевна               |              1 | https://arclinic.bitrix24.ru/crm/contact/details/14561/
-22 | Чашкина Оксана Давидовна                   |              1 | https://arclinic.bitrix24.ru/crm/contact/details/19289/
-23 | Чернигова Анна Леонидовна                  |              3 | https://arclinic.bitrix24.ru/crm/contact/details/21181/
-24 | Шестрем Юлия Александровна                 |              1 | https://arclinic.bitrix24.ru/crm/contact/details/7433/
-25 | Штейникова Алена Игоревна                  |              1 | https://arclinic.bitrix24.ru/crm/contact/details/8455/
-26 | Юрина Галина Владимировна                  |              1 | https://arclinic.bitrix24.ru/crm/contact/details/10131/
+  1 | ID:22831                                   |      3 | https://arclinic.bitrix24.ru/crm/contact/details/22831/
+  2 | ID:9287                                    |      3 | https://arclinic.bitrix24.ru/crm/contact/details/9287/
+  3 | Абукарова Пчехан Идаятовна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/21809/
+  4 | Алейникова Нелли Алиевна                   |      2 | https://arclinic.bitrix24.ru/crm/contact/details/9135/
+  5 | Александра Владимировна Ракова Юрьевна     |      1 | https://arclinic.bitrix24.ru/crm/contact/details/25981/
+  6 | Алексеева Анастасия Владимировна           |      3 | https://arclinic.bitrix24.ru/crm/contact/details/7649/
+  7 | Алексеева Ольга Андреевна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/9593/
+  8 | Анастасова Полина Валентиновна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/16239/
+  9 | Андреева Алена Викторовна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7075/
+ 10 | Антышева Татьяна Сергеевна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19661/
+ 11 | Архангельская Полина Александровна         |      1 | https://arclinic.bitrix24.ru/crm/contact/details/10285/
+ 12 | Атаева Дженнет Тахыровна                   |      3 | https://arclinic.bitrix24.ru/crm/contact/details/25625/
+ 13 | Атаманов Роман Дмитриевич                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/26465/
+ 14 | Афанасьева Мария Евгеньевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23043/
+ 15 | Беженарь Оксана Михайловна                 |      2 | https://arclinic.bitrix24.ru/crm/contact/details/8027/
+ 16 | Белкина Мария Владимировна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/10865/
+ 17 | Бессонова Елена Сергеевна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17795/
+ 18 | Бирюкова Дарья Владимировна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/8241/
+ 19 | Благочиннова Елена Леонидовна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17017/
+ 20 | Богомолова Эльвира Игоревна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/18765/
+ 21 | Божкова Мария Вадимовна                    |      2 | https://arclinic.bitrix24.ru/crm/contact/details/13025/
+ 22 | Бондарь Яна Станиславовна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/20671/
+ 23 | Борисова Светлана Сергеевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/12299/
+ 24 | Брамкамп Дарья Васильевна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/27573/
+ 25 | Бранцевич Мария Александровна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7051/
+ 26 | Бурдза Екатерина Александровна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23011/
+ 27 | Буханастюк Анна Анатольевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17901/
+ 28 | Ватолина Мария Алексеевна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/20151/
+ 29 | Веселова Кира Сергеевна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19321/
+ 30 | Власенко Карина Денисовна                  |      2 | https://arclinic.bitrix24.ru/crm/contact/details/20437/
+ 31 | Волкова Ольга Михайловна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/22885/
+ 32 | Воробьева Любовь Михайловна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/24977/
+ 33 | Гогина Татьяна Михайловна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/12197/
+ 34 | Головина Ирина Евгеньевна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19017/
+ 35 | Голоднюк Анна Вячеславовна                 |      2 | https://arclinic.bitrix24.ru/crm/contact/details/24001/
+ 36 | Гололобова Анастасия Александровна         |      1 | https://arclinic.bitrix24.ru/crm/contact/details/26461/
+ 37 | Горячева Юлия Константиновна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/20323/
+ 38 | Грачева Анастасия Вячеславовна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/20885/
+ 39 | Дарья Михайловна Воробьева Михайловна      |      1 | https://arclinic.bitrix24.ru/crm/contact/details/15307/
+ 40 | Деева Маргарита Викторовна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/26369/
+ 41 | Денисова Екатерина Ивановна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/26487/
+ 42 | Дмитриева Наталия Викторовна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17125/
+ 43 | Дмитриева Юлия Олеговна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23289/
+ 44 | Добромыслова Дарья Николаевна              |      2 | https://arclinic.bitrix24.ru/crm/contact/details/12713/
+ 45 | Долженко Екатерина Игоревна                |      2 | https://arclinic.bitrix24.ru/crm/contact/details/16493/
+ 46 | Егорова Анна Дмитриевна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19345/
+ 47 | Егошина Дарья Сергеевна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17889/
+ 48 | Зайцева Наталья Сергеевна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/27627/
+ 49 | Земцовская Екатерина Андреевна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/16169/
+ 50 | Зырянова Валерия Сергеевна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17941/
+ 51 | Иванникова Елена Викторовна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17491/
+ 52 | Иванова Анастасия Андреевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/20013/
+ 53 | Иванова Валентина Сергеевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19459/
+ 54 | Иванова Елена Юрьевна                      |      1 | https://arclinic.bitrix24.ru/crm/contact/details/10779/
+ 55 | Иванова Наира Шотаевна                     |      1 | https://arclinic.bitrix24.ru/crm/contact/details/8461/
+ 56 | Иващенко Анна Владимировна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7473/
+ 57 | Кадымова Наталья Александровна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7407/
+ 58 | Кельник Александра Олеговна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/25019/
+ 59 | Керестеши (Дягилева) Наталья Михайловна    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/22373/
+ 60 | Кипрушкина Елена Ивановна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/24441/
+ 61 | Кирпичев Игорь Владимирович                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19233/
+ 62 | Кирсанова Ольга Геннадьевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/14111/
+ 63 | Кисельчук Елена Николаевна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/22501/
+ 64 | Ковалева Валентина Сергеевна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23961/
+ 65 | Козлова Наталья Павловна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19273/
+ 66 | Колчина Кристина Дмитриевна                |      2 | https://arclinic.bitrix24.ru/crm/contact/details/10523/
+ 67 | Комленович Елена Николаевна                |      2 | https://arclinic.bitrix24.ru/crm/contact/details/19799/
+ 68 | Коновалова Светлана Евгеньевна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/13807/
+ 69 | Костюк Анна Андреевна                      |      1 | https://arclinic.bitrix24.ru/crm/contact/details/18389/
+ 70 | Котова Наталья Андреевна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19079/
+ 71 | Кошелева Анна Алексеевна                   |      2 | https://arclinic.bitrix24.ru/crm/contact/details/11585/
+ 72 | Кравченко Александра Александровна         |      3 | https://arclinic.bitrix24.ru/crm/contact/details/19391/
+ 73 | Кубарькова Ника Олеговна                   |      2 | https://arclinic.bitrix24.ru/crm/contact/details/21269/
+ 74 | Куватова Александра Владиславовна          |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17515/
+ 75 | Кузнецова Марина Владимировна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/18283/
+ 76 | Кукшегорова Ирина Александровна            |      1 | https://arclinic.bitrix24.ru/crm/contact/details/26237/
+ 77 | Лебедева Татьяна Алексеевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/22987/
+ 78 | Лепёхин Василий Георгиевич                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/6991/
+ 79 | Леттиева Инна Сергеевна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/21267/
+ 80 | Лисина Елена Анатольевна                   |      2 | https://arclinic.bitrix24.ru/crm/contact/details/20117/
+ 81 | Лисовская Анна Эдгардовна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17133/
+ 82 | Лобанова Анастасия Леонидовна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23017/
+ 83 | Логинова Анна Юрьевна                      |      1 | https://arclinic.bitrix24.ru/crm/contact/details/13531/
+ 84 | Любинская Анна Александровна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/9737/
+ 85 | Маргарян Ольга Ивановна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/24427/
+ 86 | Мардамшина Яна Борисовна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/9175/
+ 87 | Матросова Яна Александровна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/18649/
+ 88 | Мелихова Юлия Андреевна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/24347/
+ 89 | Микрюкова Наталья Васильевна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/22847/
+ 90 | Милана Перлова Анатольевна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7297/
+ 91 | Миронова Анна Константиновна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/26049/
+ 92 | Михель Ксения Михайловна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7213/
+ 93 | Морковкина Наталья Сергеевна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17895/
+ 94 | Мущук Елизавета Сергеевна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/13557/
+ 95 | Мягченко Антонина Викторовна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/10447/
+ 96 | Неронова Татьяна Павловна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/25457/
+ 97 | Нестеренко Яна Ивановна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/24971/
+ 98 | Николаева Екатерина Александровна          |      2 | https://arclinic.bitrix24.ru/crm/contact/details/7785/
+ 99 | Овсянникова Наталья Васильевна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/24281/
+100 | Олексина Марина Алексеевна                 |      2 | https://arclinic.bitrix24.ru/crm/contact/details/10033/
+101 | Павлова Марина Сергеевна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7701/
+102 | Павлюкова Ирина Александровна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23137/
+103 | Папко Мария Александровна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/22045/
+104 | Паршина Светлана Борисовна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/9585/
+105 | Пастухова(Сухачева) Юлия Леонидовна        |      1 | https://arclinic.bitrix24.ru/crm/contact/details/8983/
+106 | Петрова Елена Георгиевна                   |      4 | https://arclinic.bitrix24.ru/crm/contact/details/17085/
+107 | Петрова Елена Евгеньевна                   |      2 | https://arclinic.bitrix24.ru/crm/contact/details/26367/
+108 | Петушкова Алёна Викторовна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/24601/
+109 | Плеханова Наталья Николаевна               |      3 | https://arclinic.bitrix24.ru/crm/contact/details/21019/
+110 | Подвязная Алиса Александровна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/20505/
+111 | Поливаева Наталья Алексеевна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19257/
+112 | Политова Алёна Геннадьевна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17573/
+113 | Полушкина Ксения Дмитриевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/16287/
+114 | Пономарева Мария Сергеевна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/10991/
+115 | Попович Наталья Викторовна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/14017/
+116 | Репникова Оксана Александровна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/16463/
+117 | Румянцева Ксения Андреевна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/17199/
+118 | Саакян Карине Агасиновна                   |      2 | https://arclinic.bitrix24.ru/crm/contact/details/8371/
+119 | Савельева Анна Романовна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23273/
+120 | Савочкин Роман Александрович               |      2 | https://arclinic.bitrix24.ru/crm/contact/details/15115/
+121 | Савочкина Анастасия Викторовна             |      2 | https://arclinic.bitrix24.ru/crm/contact/details/14565/
+122 | Сассьян Марина Викторовна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/13979/
+123 | Свердлина Ольга Сергеевна                  |      2 | https://arclinic.bitrix24.ru/crm/contact/details/24311/
+124 | Седова Анна Олеговна                       |      2 | https://arclinic.bitrix24.ru/crm/contact/details/14395/
+125 | Сергеева Елена Сергеевна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/18493/
+126 | Сердюкова Анна Николаевна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/15043/
+127 | Серженко Юлия Викторовна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/21923/
+128 | Сиделева Елена Александровна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/14713/
+129 | Сидоренко Валерия Валерьевна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/6921/
+130 | Силантьева Анна Александровна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/21173/
+131 | Соболева Наталья Владимировна              |      2 | https://arclinic.bitrix24.ru/crm/contact/details/16761/
+132 | Соглаева Алевтина Александровна            |      1 | https://arclinic.bitrix24.ru/crm/contact/details/16987/
+133 | Степанова Эльвира Николаевна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23189/
+134 | Стуликова Екатерина Владимировна           |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19027/
+135 | Сухановская Ирина Валерьевна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/10281/
+136 | Сухарева Ксения Александровна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/18435/
+137 | Тиммерман Ксения Александровна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/21055/
+138 | Тихоненко Екатерина Евгеньевна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/6981/
+139 | Травина Надежда Викторовна                 |      2 | https://arclinic.bitrix24.ru/crm/contact/details/9153/
+140 | Углицких Наталья Валерьевна                |      3 | https://arclinic.bitrix24.ru/crm/contact/details/22265/
+141 | Ульянова Ксения Эдуардовна                 |      2 | https://arclinic.bitrix24.ru/crm/contact/details/6993/
+142 | Усачева Ольга Александровна                |      2 | https://arclinic.bitrix24.ru/crm/contact/details/10703/
+143 | Федорова Наталья Александровна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/23385/
+144 | Федосова Марина Александровна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/25357/
+145 | Филатова Валентина Анатольевна             |      2 | https://arclinic.bitrix24.ru/crm/contact/details/7091/
+146 | Харебина Анастасия Михайловна              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7225/
+147 | Холина Анна Владимировна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19077/
+148 | Хольстрем Гёлла Владимировна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/22857/
+149 | Хон Юлия Глебовна                          |      1 | https://arclinic.bitrix24.ru/crm/contact/details/12423/
+150 | Хрусталева Евгения Игоревна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/14027/
+151 | Цветкова Наталья Валерьевна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7141/
+152 | Цыганцева Наталья Николаевна               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/14561/
+153 | Цюкалова Ольга Николаевна                  |      2 | https://arclinic.bitrix24.ru/crm/contact/details/21327/
+154 | Чашкина Оксана Давидовна                   |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19289/
+155 | Ченцова Екатерина Владимировна             |      1 | https://arclinic.bitrix24.ru/crm/contact/details/12291/
+156 | Чернигова Анна Леонидовна                  |      3 | https://arclinic.bitrix24.ru/crm/contact/details/21181/
+157 | Четчасова Яна Сергеевна                    |      1 | https://arclinic.bitrix24.ru/crm/contact/details/9921/
+158 | Чхиквадзе Анна Теймуразовна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/25071/
+159 | Шереметова Милана Павловна                 |      2 | https://arclinic.bitrix24.ru/crm/contact/details/11019/
+160 | Шестрем Юлия Александровна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/7433/
+161 | Штейникова Алена Игоревна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/8455/
+162 | Штырбул Константин Дмитриевич              |      1 | https://arclinic.bitrix24.ru/crm/contact/details/18747/
+163 | Щепина Екатерина Игоревна                  |      2 | https://arclinic.bitrix24.ru/crm/contact/details/10267/
+164 | Юлия Александровна Макаренко Александровна |      1 | https://arclinic.bitrix24.ru/crm/contact/details/19047/
+165 | Юнда Наталия                               |      1 | https://arclinic.bitrix24.ru/crm/contact/details/15039/
+166 | Юрина Галина Владимировна                  |      1 | https://arclinic.bitrix24.ru/crm/contact/details/10131/
+167 | Яковлева Екатерина Ремовна                 |      1 | https://arclinic.bitrix24.ru/crm/contact/details/21871/
+168 | Яковлева Юлия Александровна                |      1 | https://arclinic.bitrix24.ru/crm/contact/details/12185/
 
-Всего: 26 пациентов
+Всего: 168 пациентов

@@ -2,7 +2,7 @@ import os
 from datetime import datetime, timedelta, timezone
 from collections import defaultdict
 
-from client_segmentation_transition import load_deals, parse_dt, is_excluded, segment
+from client_segmentation_transition import load_deals, parse_dt, is_excluded
 
 MSK = timezone(timedelta(hours=3))
 
@@ -12,25 +12,37 @@ deals = load_deals()
 clean = [d for d in deals if not is_excluded(d.get("STAGE_ID", ""))]
 
 contact_dates = defaultdict(list)
-no_contact = 0
 for d in clean:
     cid = d.get("CONTACT_ID")
     if not cid or cid == "0":
-        no_contact += 1
         continue
     dt = parse_dt(d.get("UF_CRM_1738231866") or d.get("BEGINDATE") or d.get("DATE_CREATE", ""))
     if dt:
         contact_dates[cid].append(dt)
 
+# Календарные месяцы
 snap_prev = datetime(2026, 6, 30, 23, 59, 59, tzinfo=MSK)
 snap_curr = datetime(2026, 7, 31, 23, 59, 59, tzinfo=MSK)
-win_prev_start = snap_prev - timedelta(days=365)
-win_curr_start = snap_curr - timedelta(days=365)
+month_prev_start = snap_prev.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+month_curr_start = snap_curr.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+
+
+def segment(dates, month_start, snapshot):
+    """Сегмент по календарному месяцу: primary / lost / dev / reg"""
+    count = sum(1 for dt in dates if month_start <= dt <= snapshot)
+    if count == 0:
+        has_history = any(dt < month_start for dt in dates)
+        return "lost" if has_history else "primary"
+    elif count <= 5:
+        return "dev"
+    else:
+        return "reg"
+
 
 transition = defaultdict(lambda: defaultdict(int))
 for cid, dates in contact_dates.items():
-    seg_prev = segment(dates, win_prev_start, snap_prev)
-    seg_curr = segment(dates, win_curr_start, snap_curr)
+    seg_prev = segment(dates, month_prev_start, snap_prev)
+    seg_curr = segment(dates, month_curr_start, snap_curr)
     transition[seg_prev][seg_curr] += 1
 
 primary_to_dev = transition["primary"]["dev"]
@@ -45,7 +57,7 @@ reg_to_lost = transition["reg"]["lost"]
 reg_to_dev = transition["reg"]["dev"]
 
 print("=== Переходы между сегментами за июль 2026 ===")
-print("(только завершённые приёмы C1:WON)")
+print("(только C1:WON, календарный месяц)")
 print()
 
 print("--- Новые клиенты (первичные -> активные) ---")
