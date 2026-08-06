@@ -2,14 +2,14 @@ import os
 from datetime import datetime, timedelta, timezone
 from collections import defaultdict
 
-from client_segmentation_transition import load_deals, parse_dt, is_lose, segment
+from client_segmentation_transition import load_deals, parse_dt, is_excluded, segment
 
 MSK = timezone(timedelta(hours=3))
 
 print("Загружаем сделки (с автосвежестью кэша)...")
 deals = load_deals()
 
-clean = [d for d in deals if not is_lose(d.get("STAGE_ID", ""))]
+clean = [d for d in deals if not is_excluded(d.get("STAGE_ID", ""))]
 
 contact_dates = defaultdict(list)
 no_contact = 0
@@ -18,12 +18,12 @@ for d in clean:
     if not cid or cid == "0":
         no_contact += 1
         continue
-    dt = parse_dt(d.get("BEGINDATE") or d.get("DATE_CREATE", ""))
+    dt = parse_dt(d.get("UF_CRM_1738231866") or d.get("BEGINDATE") or d.get("DATE_CREATE", ""))
     if dt:
         contact_dates[cid].append(dt)
 
-snap_prev = datetime(2026, 5, 31, 23, 59, 59, tzinfo=MSK)
-snap_curr = datetime(2026, 6, 30, 23, 59, 59, tzinfo=MSK)
+snap_prev = datetime(2026, 6, 30, 23, 59, 59, tzinfo=MSK)
+snap_curr = datetime(2026, 7, 31, 23, 59, 59, tzinfo=MSK)
 win_prev_start = snap_prev - timedelta(days=365)
 win_curr_start = snap_curr - timedelta(days=365)
 
@@ -44,8 +44,8 @@ dev_to_primary = transition["dev"]["primary"]
 reg_to_lost = transition["reg"]["lost"]
 reg_to_dev = transition["reg"]["dev"]
 
-print("=== Переходы между сегментами за июнь 2026 ===")
-print("(без проваленных сделок LOSE)")
+print("=== Переходы между сегментами за июль 2026 ===")
+print("(только завершённые приёмы C1:WON)")
 print()
 
 print("--- Новые клиенты (первичные -> активные) ---")

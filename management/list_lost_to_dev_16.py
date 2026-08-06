@@ -2,7 +2,7 @@ import os, sys
 from datetime import datetime, timedelta, timezone
 from collections import defaultdict
 
-from client_segmentation_transition import load_deals, parse_dt, is_lose, segment
+from client_segmentation_transition import load_deals, parse_dt, is_excluded, segment
 
 sys.path.insert(0, r"C:\Arclinic")
 from shared.bitrix24 import call
@@ -12,14 +12,14 @@ MSK = timezone(timedelta(hours=3))
 print("Загружаем сделки (с автосвежестью кэша)...")
 deals = load_deals()
 
-clean = [d for d in deals if not is_lose(d.get("STAGE_ID", ""))]
+clean = [d for d in deals if not is_excluded(d.get("STAGE_ID", ""))]
 
 contact_dates = defaultdict(list)
 for d in clean:
     cid = d.get("CONTACT_ID")
     if not cid or cid == "0":
         continue
-    dt = parse_dt(d.get("BEGINDATE") or d.get("DATE_CREATE", ""))
+    dt = parse_dt(d.get("UF_CRM_1738231866") or d.get("BEGINDATE") or d.get("DATE_CREATE", ""))
     if dt:
         contact_dates[cid].append(dt)
 

@@ -30,8 +30,12 @@ def parse_dt(ds):
             return None
 
 
-def is_lose(stage_id):
-    return (stage_id or "").upper().endswith(":LOSE") or (stage_id or "").upper() == "LOSE"
+def is_won(stage_id):
+    """Только завершённые приёмы (C1:WON) учитываются в сегментации."""
+    return (stage_id or "").upper() == "C1:WON"
+
+def is_excluded(stage_id):
+    return not is_won(stage_id)
 
 
 def fetch_all_deals():
@@ -42,7 +46,7 @@ def fetch_all_deals():
     while True:
         result = call("crm.deal.list", {
             "filter": {">=DATE_CREATE": start_date.strftime("%Y-%m-%dT%H:%M:%S+03:00")},
-            "select": ["ID", "CONTACT_ID", "BEGINDATE", "STAGE_ID"],
+            "select": ["ID", "CONTACT_ID", "BEGINDATE", "UF_CRM_1738231866", "STAGE_ID"],
             "order": {"ID": "DESC"},
             "start": offset,
         })
@@ -97,9 +101,9 @@ if __name__ == "__main__":
 
     print(f"Всего сделок в кэше: {len(all_deals)}")
 
-    lose_count = sum(1 for d in all_deals if is_lose(d.get("STAGE_ID", "")))
-    clean = [d for d in all_deals if not is_lose(d.get("STAGE_ID", ""))]
-    print(f"Исключено проваленных (LOSE): {lose_count}")
+    excluded_count = sum(1 for d in all_deals if is_excluded(d.get("STAGE_ID", "")))
+    clean = [d for d in all_deals if not is_excluded(d.get("STAGE_ID", ""))]
+    print(f"Исключено не-WON сделок: {excluded_count}")
     print(f"Осталось сделок: {len(clean)}")
 
     print("Группируем сделки по контактам...")
@@ -110,7 +114,7 @@ if __name__ == "__main__":
         if not cid or cid == "0":
             no_contact += 1
             continue
-        dt = parse_dt(d.get("BEGINDATE") or d.get("DATE_CREATE", ""))
+        dt = parse_dt(d.get("UF_CRM_1738231866") or d.get("BEGINDATE") or d.get("DATE_CREATE", ""))
         if dt:
             contact_dates[cid].append(dt)
 
