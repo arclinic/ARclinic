@@ -1,31 +1,26 @@
-Реактивированные (lost -> dev) за июль 2026 | gap между приёмами >365 дн.
-  N | Пациент                                    | Сделок | Разрыв | Ссылка
+  N | Пациент                                    | Сд | Разрыв | Ссылка
 --------------------------------------------------------------------------------------------------------------
-  1 | Абукарова Пчехан Идаятовна                 |      1 |   417дн | https://arclinic.bitrix24.ru/crm/contact/details/21809/
-  2 | Бирюкова Дарья Владимировна                |      1 |   936дн | https://arclinic.bitrix24.ru/crm/contact/details/8241/
-  3 | Борисова Светлана Сергеевна                |      1 |   807дн | https://arclinic.bitrix24.ru/crm/contact/details/12299/
-  4 | Дмитриева Юлия Олеговна                    |      1 |   444дн | https://arclinic.bitrix24.ru/crm/contact/details/23289/
-  5 | Зырянова Валерия Сергеевна                 |      1 |   369дн | https://arclinic.bitrix24.ru/crm/contact/details/17941/
-  6 | Кисельчук Елена Николаевна                 |      1 |   469дн | https://arclinic.bitrix24.ru/crm/contact/details/22501/
-  7 | Котова Наталья Андреевна                   |      1 |   643дн | https://arclinic.bitrix24.ru/crm/contact/details/19079/
-  8 | Кузнецова Марина Владимировна              |      1 |   887дн | https://arclinic.bitrix24.ru/crm/contact/details/18283/
-  9 | Лебедева Татьяна Алексеевна                |      1 |   408дн | https://arclinic.bitrix24.ru/crm/contact/details/22987/
- 10 | Лисина Елена Анатольевна                   |      2 |   468дн | https://arclinic.bitrix24.ru/crm/contact/details/20117/
- 11 | Любинская Анна Александровна               |      1 |   489дн | https://arclinic.bitrix24.ru/crm/contact/details/9737/
- 12 | Морковкина Наталья Сергеевна               |      1 |   932дн | https://arclinic.bitrix24.ru/crm/contact/details/17895/
- 13 | Мущук Елизавета Сергеевна                  |      1 |  1128дн | https://arclinic.bitrix24.ru/crm/contact/details/13557/
- 14 | Паршина Светлана Борисовна                 |      1 |  1615дн | https://arclinic.bitrix24.ru/crm/contact/details/9585/
- 15 | Подвязная Алиса Александровна              |      1 |   420дн | https://arclinic.bitrix24.ru/crm/contact/details/20505/
- 16 | Седова Анна Олеговна                       |      2 |   504дн | https://arclinic.bitrix24.ru/crm/contact/details/14395/
- 17 | Соболева Наталья Владимировна              |      2 |  1069дн | https://arclinic.bitrix24.ru/crm/contact/details/16761/
- 18 | Соглаева Алевтина Александровна            |      1 |   730дн | https://arclinic.bitrix24.ru/crm/contact/details/16987/
- 19 | Сухарева Ксения Александровна              |      1 |   406дн | https://arclinic.bitrix24.ru/crm/contact/details/18435/
- 20 | Цветкова Наталья Валерьевна                |      1 |  2289дн | https://arclinic.bitrix24.ru/crm/contact/details/7141/
- 21 | Цыганцева Наталья Николаевна               |      1 |  1364дн | https://arclinic.bitrix24.ru/crm/contact/details/14561/
- 22 | Чашкина Оксана Давидовна                   |      1 |   482дн | https://arclinic.bitrix24.ru/crm/contact/details/19289/
- 23 | Чернигова Анна Леонидовна                  |      3 |  1760дн | https://arclinic.bitrix24.ru/crm/contact/details/21181/
- 24 | Шестрем Юлия Александровна                 |      1 |   978дн | https://arclinic.bitrix24.ru/crm/contact/details/7433/
- 25 | Штейникова Алена Игоревна                  |      1 |   371дн | https://arclinic.bitrix24.ru/crm/contact/details/8455/
- 26 | Юрина Галина Владимировна                  |      1 |   471дн | https://arclinic.bitrix24.ru/crm/contact/details/10131/
+  1 | Абукарова Пчехан                           |   1 |   417дн | https://arclinic.bitrix24.ru/crm/contact/details/21809/
+  2 | Бирюкова Дарья                             |   1 |   936дн | https://arclinic.bitrix24.ru/crm/contact/details/8241/
+  3 | Борисова Светлана                          |   1 |   807дн | https://arclinic.bitrix24.ru/crm/contact/details/12299/
+  4 | Дмитриева Юлия                             |   1 |   444дн | https://arclinic.bitrix24.ru/crm/contact/details/23289/
+  5 | Зырянова Валерия                           |   1 |   369дн | https://arclinic.bitrix24.ru/crm/contact/details/17941/
+  6 | Кисельчук Елена                            |   1 |   469дн | https://arclinic.bitrix24.ru/crm/contact/details/22501/
+  7 | Котова Наталья                             |   1 |   643дн | https://arclinic.bitrix24.ru/crm/contact/details/19079/
+  8 | Кузнецова Марина                           |   1 |   887дн | https://arclinic.bitrix24.ru/crm/contact/details/18283/
+  9 | Лебедева Татьяна                           |   1 |   408дн | https://arclinic.bitrix24.ru/crm/contact/details/22987/
+ 10 | Лисина Елена                               |   2 |   468дн | https://arclinic.bitrix24.ru/crm/contact/details/20117/
+ 11 | Любинская Анна                             |   1 |   489дн | https://arclinic.bitrix24.ru/crm/contact/details/9737/
+ 12 | Морковкина Наталья                         |   1 |   932дн | https://arclinic.bitrix24.ru/crm/contact/details/17895/
+ 13 | Мущук Елизавета                            |   1 |  1128дн | https://arclinic.bitrix24.ru/crm/contact/details/13557/
+ 14 | Паршина Светлана                           |   1 |  1615дн | https://arclinic.bitrix24.ru/crm/contact/details/9585/
+ 15 | Подвязная Алиса                            |   1 |   420дн | https://arclinic.bitrix24.ru/crm/contact/details/20505/
+ 16 | Седова Анна                                |   2 |   504дн | https://arclinic.bitrix24.ru/crm/contact/details/14395/
+ 17 | Соболева Наталья                           |   2 |  1069дн | https://arclinic.bitrix24.ru/crm/contact/details/16761/
+ 18 | Соглаева Алевтина                          |   1 |   730дн | https://arclinic.bitrix24.ru/crm/contact/details/16987/
+ 19 | Сухарева Ксения                            |   1 |   406дн | https://arclinic.bitrix24.ru/crm/contact/details/18435/
+ 20 | Цыганцева Наталья                          |   1 |  1364дн | https://arclinic.bitrix24.ru/crm/contact/details/14561/
+ 21 | Чашкина Оксана                             |   1 |   482дн | https://arclinic.bitrix24.ru/crm/contact/details/19289/
+ 22 | Чернигова Анна                             |   3 |  1760дн | https://arclinic.bitrix24.ru/crm/contact/details/21181/
 
-Всего: 26 пациентов
+Всего: 22 пациентов

@@ -69,12 +69,13 @@ def fetch_all_deals():
 def load_deals(force=False):
     if os.path.exists(CACHE) and not force:
         cache_mtime = datetime.fromtimestamp(os.path.getmtime(CACHE), tz=MSK)
-        if cache_mtime.date() == datetime.now(MSK).date():
-            print(f"Загружаем сделки из кэша (сегодня, {cache_mtime.strftime('%H:%M')})...")
+        age_minutes = (datetime.now(MSK) - cache_mtime).total_seconds() / 60
+        if age_minutes < 60:
+            print(f"Загружаем сделки из кэша ({age_minutes:.0f} мин. назад)...")
             with open(CACHE, "r", encoding="utf-8") as f:
                 return json.load(f)
         else:
-            print(f"Кэш устарел ({cache_mtime.strftime('%d.%m.%Y')}), перевыгружаем из Bitrix24...")
+            print(f"Кэш устарел ({age_minutes:.0f} мин., {cache_mtime.strftime('%d.%m.%Y %H:%M')}), перевыгружаем из Bitrix24...")
 
     deals = fetch_all_deals()
     with open(CACHE, "w", encoding="utf-8") as f:
