@@ -1,0 +1,20 @@
+{
+  "instagram": [
+    {"username": "arclinic", "owner": "Клиника ARclinic", "niche": "клиника"},
+    {"username": "reznik_anna_v", "owner": "Анна Резник", "niche": "личный бренд врача"}
+  ],
+  "tiktok": [
+    {"username": "arclinic1", "owner": "Клиника ARclinic", "niche": "клиника"}
+  ],
+  "telegram": [
+    {"username": "arclinic1", "owner": "Клиника ARclinic", "niche": "канал клиники"},
+    {"username": "av_reznik", "owner": "Анна Резник", "niche": "личный канал"},
+    {"username": "ArclinicSPB", "owner": "Служба заботы", "niche": "чат с пациентами"}
+  ],
+  "vkontakte": [
+    {"username": "arclinic", "owner": "Клиника ARclinic", "niche": "группа клиники"}
+  ],
+  "youtube": [
+    {"channel_id": "UCbZkb8Gj8XjenOAoYgp60bg", "channel_name": "ARclinic", "owner": "Клиника ARclinic", "niche": "видео-контент"}
+  ]
+}

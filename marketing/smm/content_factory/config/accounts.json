@@ -1,0 +1,29 @@
+{
+  "x_accounts": [],
+  "instagram_accounts": [
+    {
+      "username": "arclinic",
+      "niche": "aesthetic medicine, cosmetology, dermatology",
+      "notes": "Клиника эстетической медицины Анны Резник"
+    }
+  ],
+  "tiktok_accounts": [
+    {
+      "username": "arclinic1",
+      "niche": "aesthetic medicine",
+      "notes": "Клиника эстетической медицины"
+    }
+  ],
+  "youtube_channel": {
+    "channel_id": "UCbZkb8Gj8XjenOAoYgp60bg",
+    "channel_name": "ARclinic",
+    "niche": "aesthetic medicine",
+    "content_style": "educational, expert advice",
+    "target_audience": "women interested in aesthetic medicine",
+    "typical_video_length": "5-15min",
+    "upload_frequency": "Weekly",
+    "best_performing_topics": ["aesthetic procedures", "skincare", "expert opinions"],
+    "growth_targets": "Grow brand awareness",
+    "content_goals": "Establish expertise in aesthetic medicine"
+  }
+}

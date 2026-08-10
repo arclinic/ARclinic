@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "qwen/qwen3.7-max",
+  "small_model": "qwen/qwen3.6-flash",
+  "provider": {
+    "qwen": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Qwen (Token Plan)",
+      "options": {
+        "baseURL": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+        "apiKey": "ВСТАВЬТЕ_СЮДА_ВАШ_API_КЛЮЧ"
+      },
+      "models": {
+        "qwen3.7-max": {"name": "Qwen3.7-Max"},
+        "qwen3.7-plus": {"name": "Qwen3.7-Plus"},
+        "qwen3.6-plus": {"name": "Qwen3.6-Plus"},
+        "qwen3.6-flash": {"name": "Qwen3.6-Flash"}
+      }
+    }
+  },
+  "skills": {
+    "paths": [".opencode/skills"]
+  }
+}
