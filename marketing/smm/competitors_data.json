@@ -1,0 +1,287 @@
+{
+  "_meta": {
+    "source": "мозг_клиники_ARclinic/бизнес/конкуренты/анализ-конкурентов.md",
+    "updated": "2026-08-12",
+    "note": "TG проверены через Telethon. Невалидные username удалены. VK проверены через API."
+  },
+  "theme_keywords": {
+    "ботулинотерапия": ["ботокс", "ботулинотерапия", "диспорт", "ксеомин", "релатокс", "мигрень", "бруксизм", "гипергидроз"],
+    "контурная_пластика": ["филлер", "контурная пластика", "губы", "скулы", "овал лица", "ювэдэм", "белотеро"],
+    "smas_лифтинг": ["smas", "ультразвуковой лифтинг", "ультраформер", "альтера"],
+    "аппаратная_косметология": ["rf-лифтинг", "микроигольчатый", "morpheus", "virtue", "scarlet", "фотоомоложение", "bbl", "ipl", "m22", "nordlys", "неодимовый", "аэролейз", "фотодинамическая"],
+    "чекапы": ["чекап", "check-up", "обследование", "диагностика", "комплексное"],
+    "anti_age": ["anti-age", "антивозрастной", "омоложение", "долголетие", "longevity", "геронтолог"],
+    "лазерные_процедуры": ["лазер", "эпиляция", "шлифовка", "co2", "удаление сосуд", "удаление новообразован"],
+    "акне": ["акне", "угри", "прыщи", "постакне", "чёрные точки", "воспалени"],
+    "уходовые_процедуры": ["чистк", "пилинг", "массаж лица", "уход", "hydrofacial", "микроток"],
+    "гзт_менопауза": ["гзт", "менопауза", "климакс", "гормон", "эндокринолог", "щитовидн"],
+    "лечение_осложнений": ["осложнени", "исправлени", "удалили филлер", "неудачн", "передела"],
+    "трихология": ["трихолог", "волос", "алопеция", "выпадение", "пересадк"],
+    "мужская_косметология": ["мужск", "мужчин", "андролог", "уролог", "тестостерон"],
+    "нитевой_лифтинг": ["нит", "aptos", "тредлифтинг"],
+    "коллагенотерапия": ["коллаген", "коллост", "nithiya", "биоревитализация", "профайло", "nctf"],
+    "плацентотерапия": ["лаеннек", "плацент", "nad+"],
+    "эстетическая_гинекология": ["гинеколог", "интимн", "лазерное омоложение влагалищ"]
+  },
+  "competitors": {
+    "x_clinic": {
+      "name": "X-Clinic",
+      "group": 3, "group_name": "Чекапы / anti-age",
+      "threat": "critical",
+      "telegram": "x_clinic",
+      "tg_subs": 709,
+      "vk": "",
+      "note": "Resort в Репино. TG рабочий: 709 подписчиков."
+    },
+    "artmedia": {
+      "name": "Артмедия",
+      "group": 2, "group_name": "Чекапы / anti-age + Лучший врач",
+      "threat": "critical",
+      "telegram": "artmediaclinic",
+      "tg_subs": 90,
+      "vk": "artmediaclinic",
+      "note": "Бутик Anti-Age. TG рабочий: 90 подписчиков. VK группа: id 4080818, 1470 участников."
+    },
+    "miss_magnet": {
+      "name": "Мисс Магнет",
+      "group": 2, "group_name": "Лучший врач СПб",
+      "threat": "high",
+      "telegram": "miss_magnet",
+      "tg_subs": 1257,
+      "vk": "",
+      "note": "Клиника косметологии. TG рабочий: 1257 подписчиков."
+    },
+    "kosmetolodzhi_premium": {
+      "name": "Косметолоджи Премиум",
+      "group": 2, "group_name": "Лучший врач СПб",
+      "threat": "critical",
+      "telegram": "",
+      "vk": "cosmetology_premium",
+      "note": "Бутик, нитевой лифтинг — флагман. VK паблик: id 153666483. TG не найден."
+    },
+    "epilium_clinic": {
+      "name": "Epilium Clinic",
+      "group": 1, "group_name": "Район — Коломна",
+      "threat": "high",
+      "telegram": "",
+      "vk": "epiliumclinic",
+      "note": "Сеть (3 филиала). VK паблик: id 185793196, 38 участников. TG не найден."
+    },
+    "mediestetik": {
+      "name": "Медиэстетик",
+      "group": 2, "group_name": "Лучший врач СПб",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Сеть с 1997, 5 филиалов. VK группа id 697170 закрытая (is_closed=1). TG = личный аккаунт без публичного контента. SMM-мониторинг недоступен."
+    },
+    "grandmed": {
+      "name": "Grandmed",
+      "group": 1, "group_name": "Район — Сенная площадь",
+      "threat": "critical",
+      "telegram": "",
+      "vk": "",
+      "note": "Центр пласт. хирургии, Садовая 35. TG @grandmed_spb = личный аккаунт без публичных постов. VK не найден."
+    },
+    "milano_network": {
+      "name": "МИЛАНО (сеть СПб)",
+      "group": 2, "group_name": "Лучший врач СПб",
+      "threat": "critical",
+      "telegram": "",
+      "vk": "",
+      "note": "Бутик-сеть, 2 филиала в СПб, 25+ врачей. TG/VK не найдены. Внимание: @milanoclinic в TG = Milano Clinic Москва, НЕ СПб."
+    },
+    "milano_sennaya": {
+      "name": "Милано на Сенной",
+      "group": 1, "group_name": "Район — Сенная площадь",
+      "threat": "critical",
+      "telegram": "",
+      "vk": "",
+      "note": "Клиника эстет. медицины, 25+ врачей. Соцсети не найдены."
+    },
+    "dom_am": {
+      "name": "Дом Антивозрастной Медицины",
+      "group": 2, "group_name": "Лучший врач СПб + Чекапы",
+      "threat": "critical",
+      "telegram": "",
+      "vk": "",
+      "note": "Сеть, 2 филиала. TG/VK не найдены (проверены @antiage_medicine — невалиден)."
+    },
+    "botanika": {
+      "name": "Ботаника",
+      "group": 1, "group_name": "Район — шаговая доступность",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Клиника косметологии, Басков пер. 2. TG/VK не найдены."
+    },
+    "lazerny_doctor": {
+      "name": "Лазерный доктор",
+      "group": 1, "group_name": "Район — Коломна",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Сеть (15 филиалов). TG/VK не найдены."
+    },
+    "your_face_clinic": {
+      "name": "Your Face Clinic",
+      "group": 1, "group_name": "Район — Сенная площадь",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Клиника косметологии, Разъезжая 2. TG/VK не найдены."
+    },
+    "beautiful_people": {
+      "name": "Beautiful People",
+      "group": 1, "group_name": "Район — Сенная площадь",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Косметология / эпиляция, Думская 4. TG/VK не найдены."
+    },
+    "docforderm": {
+      "name": "DocForDerm",
+      "group": 1, "group_name": "Район — Центральный район",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Косметология / медцентр, Парадная 3к2. TG @docforderm = личный аккаунт врача."
+    },
+    "ggmed": {
+      "name": "GGmed",
+      "group": 1, "group_name": "Район — шаговая доступность",
+      "threat": "medium",
+      "telegram": "",
+      "vk": "",
+      "note": "Многопрофильный медцентр, Шпалерная 34. TG/VK не найдены."
+    },
+    "luminova": {
+      "name": "Luminova",
+      "group": 1, "group_name": "Район — Сенная площадь",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Косметологический кабинет, Казанская 43. TG/VK не найдены."
+    },
+    "yutskovskaya": {
+      "name": "Клиника проф. Юцковской",
+      "group": 4, "group_name": "Межгород / онлайн",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Москва. TG/VK не найдены (проверен @yutskovskaya_clinic — невалиден)."
+    },
+    "amd_laboratorii": {
+      "name": "АМД Лаборатории",
+      "group": 6, "group_name": "Трихология",
+      "threat": "critical",
+      "telegram": "",
+      "vk": "",
+      "note": "Федеральная сеть 25+ лет. TG/VK не найдены (проверен @amdlab — невалиден)."
+    },
+    "centr_zdorovya_volos": {
+      "name": "Центр Здоровья Волос",
+      "group": 6, "group_name": "Трихология",
+      "threat": "critical",
+      "telegram": "",
+      "vk": "",
+      "note": "Специализированный центр с 2003. TG/VK не найдены (проверен @czv_spb — невалиден)."
+    },
+    "medika": {
+      "name": "Медика",
+      "group": 1, "group_name": "Район — шаговая доступность",
+      "threat": "medium",
+      "telegram": "",
+      "vk": "",
+      "note": "Многопрофильный медцентр, Дегтярная 23/25"
+    },
+    "melis": {
+      "name": "Мелис",
+      "group": 1, "group_name": "Район — шаговая доступность",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Косметологический кабинет, Марата 51"
+    },
+    "laastra": {
+      "name": "ЛаАстра",
+      "group": 1, "group_name": "Район — шаговая доступность",
+      "threat": "medium",
+      "telegram": "",
+      "vk": "",
+      "note": "Клиника косметологии, Марата 30"
+    },
+    "geltek": {
+      "name": "Гельтек",
+      "group": 1, "group_name": "Район — шаговая доступность",
+      "threat": "low",
+      "telegram": "",
+      "vk": "",
+      "note": "Центр диагностики кожи, не клиника"
+    },
+    "moon_clinic": {
+      "name": "Moon Clinic",
+      "group": 1, "group_name": "Район — Сенная площадь",
+      "threat": "medium",
+      "telegram": "",
+      "vk": "",
+      "note": "Косметология / эпиляция"
+    },
+    "nazarova_beauty_line": {
+      "name": "Nazarova Beauty Line",
+      "group": 1, "group_name": "Район — Сенная площадь",
+      "threat": "medium",
+      "telegram": "",
+      "vk": "",
+      "note": "Косметологический кабинет, наб. Фонтанки 89B"
+    },
+    "kosmoexpert": {
+      "name": "Космоэксперт",
+      "group": 1, "group_name": "Район — Коломна",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Клиника инд. косметологии"
+    },
+    "pervaya_liniya": {
+      "name": "Первая Линия",
+      "group": 3, "group_name": "Чекапы / anti-age",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Курорт 5★, Репино. Цифровой след практически отсутствует."
+    },
+    "refresh_clinic": {
+      "name": "Refresh Clinic",
+      "group": 3, "group_name": "Чекапы / anti-age",
+      "threat": "medium",
+      "telegram": "",
+      "vk": "",
+      "note": "Городской бутик, В.О., биохакинг"
+    },
+    "forme": {
+      "name": "FORME",
+      "group": 3, "group_name": "Чекапы / anti-age",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Городская клиника, В.О., диагностика + чекапы"
+    },
+    "beauty_trend": {
+      "name": "Beauty Trend",
+      "group": 4, "group_name": "Межгород / онлайн",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Москва, клиника-бутик"
+    },
+    "mad_men_clinic": {
+      "name": "MAD MEN Clinic",
+      "group": 5, "group_name": "Мужское направление",
+      "threat": "high",
+      "telegram": "",
+      "vk": "",
+      "note": "Мужская косметология, ботулинотерапия тела"
+    }
+  }
+}
